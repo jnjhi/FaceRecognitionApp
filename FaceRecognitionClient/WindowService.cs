@@ -4,13 +4,14 @@ using FaceRecognitionClient.MVVMStructures.ViewModels.Attendance;
 using FaceRecognitionClient.MVVMStructures.ViewModels.Authentication;
 using FaceRecognitionClient.MVVMStructures.ViewModels.FaceRecognition;
 using FaceRecognitionClient.MVVMStructures.ViewModels.Gallery;
+using FaceRecognitionClient.MVVMStructures.ViewModels.NavigationWindow;
 using FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile;
 using FaceRecognitionClient.MVVMStructures.Views.Attendance;
 using FaceRecognitionClient.MVVMStructures.Views.PersonProfile;
 using FaceRecognitionClient.Services.GalleryService;
 using FaceRecognitionClient.StateMachine;
-using FaceRecognitionClient.Views;
 using FaceRecognitionClient.Views.Authentication;
+using FaceRecognitionClient.Views;
 using System.Windows;
 
 namespace LogInClient
@@ -34,6 +35,7 @@ namespace LogInClient
         private GalleryViewModel m_GalleryViewModel;
         private ForgotPasswordViewModel m_ForgotPasswordViewModel;
         private GeneralAttendanceViewModel m_GeneralAttendanceViewModel;
+        private NavigationWindowViewModel m_NavigationWindowViewModel;
 
         // Views (Windows)
         private LogInWindow m_LogInWindow;
@@ -45,6 +47,7 @@ namespace LogInClient
         private GalleryWindow m_GalleryWindow;
         private ForgotPasswordWindow m_ForgotPasswordWindow;
         private GeneralAttendanceView m_GeneralAttendanceWindow;
+        private NavigationWindow m_NavigationWindow;
 
         // Navigation state system
         private IStateMachine<ApplicationState, ApplicationTrigger> m_WindowNavigationSystem;
@@ -88,6 +91,7 @@ namespace LogInClient
             m_GalleryViewModel = new GalleryViewModel(m_GalleryService, m_PendingGalleryImage, m_UserSession);
             m_ForgotPasswordViewModel = new ForgotPasswordViewModel(m_NetworkFacade);
             m_GeneralAttendanceViewModel = new GeneralAttendanceViewModel(m_NetworkFacade, m_Mapper);
+            m_NavigationWindowViewModel = new NavigationWindowViewModel();
 
             // Register all view models as state notifiers
             m_StateNotifiers.AddRange(new IStateNotifier[]
@@ -99,7 +103,8 @@ namespace LogInClient
                 m_CaptchaViewModel,
                 m_EmailVerificationViewModel,
                 m_GalleryViewModel,
-                m_ForgotPasswordViewModel
+                m_ForgotPasswordViewModel,
+                m_NavigationWindowViewModel
             });
              
             m_DetailNotifiers.AddRange(new IDetailNotifier<AdvancedPersonDataWithImage>[]
@@ -122,6 +127,7 @@ namespace LogInClient
             m_GalleryWindow = new GalleryWindow { DataContext = m_GalleryViewModel };
             m_ForgotPasswordWindow = new ForgotPasswordWindow { DataContext = m_ForgotPasswordViewModel };
             m_GeneralAttendanceWindow = new GeneralAttendanceView { DataContext = m_GeneralAttendanceViewModel };
+            m_NavigationWindow = new NavigationWindow { DataContext = m_NavigationWindowViewModel };
             
             // Build and configure the state machine
             m_WindowNavigationSystem = BuildStateMachine();
@@ -163,11 +169,14 @@ namespace LogInClient
             stateMachine.AddTransition(ApplicationState.LogInWindow, ApplicationTrigger.LoginSuccessful, ApplicationState.CaptchaWindow);
             stateMachine.AddTransition(ApplicationState.SignUpWindow, ApplicationTrigger.SignUpSuccessful, ApplicationState.CaptchaWindow);
             stateMachine.AddTransition(ApplicationState.CaptchaWindow, ApplicationTrigger.CaptchaPassed, ApplicationState.EmailVerificationWindow);
-            stateMachine.AddTransition(ApplicationState.EmailVerificationWindow, ApplicationTrigger.EmailVerified, ApplicationState.FaceRecognitionWindow);
-            stateMachine.AddTransition(ApplicationState.LogInWindow, ApplicationTrigger.DeveloperEntered, ApplicationState.FaceRecognitionWindow);
+            stateMachine.AddTransition(ApplicationState.EmailVerificationWindow, ApplicationTrigger.EmailVerified, ApplicationState.NavigationWindow);
+            stateMachine.AddTransition(ApplicationState.LogInWindow, ApplicationTrigger.DeveloperEntered, ApplicationState.NavigationWindow);
             stateMachine.AddTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.CameraCaptureRequested, ApplicationState.CameraCaptureWindow);
             stateMachine.AddTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.GalleryRequested, ApplicationState.GalleryWindow);
             stateMachine.AddTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.AttendanceRequested, ApplicationState.AttendanceWindow);
+            stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.FaceRecognitionRequested, ApplicationState.FaceRecognitionWindow);
+            stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.GalleryRequested, ApplicationState.GalleryWindow);
+            stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.AttendanceRequested, ApplicationState.AttendanceWindow);
             stateMachine.AddTransition(ApplicationState.GalleryWindow, ApplicationTrigger.FaceRecognitionRequested, ApplicationState.FaceRecognitionWindow);
             stateMachine.AddTransition(ApplicationState.CameraCaptureWindow, ApplicationTrigger.FaceRecognitionRequested, ApplicationState.FaceRecognitionWindow);
             stateMachine.AddTransition(ApplicationState.LogInWindow, ApplicationTrigger.LogInFailed, ApplicationState.LogInWindow);
@@ -194,6 +203,7 @@ namespace LogInClient
             stateMachine.AddStateEntryAction(ApplicationState.GalleryWindow, () => UpdateUI(() => InitializeGallery()));
             stateMachine.AddStateEntryAction(ApplicationState.ForgotPasswordWindow, () => UpdateUI(() => m_ForgotPasswordWindow.Show()));
             stateMachine.AddStateEntryAction(ApplicationState.AttendanceWindow, () => UpdateUI(() => m_GeneralAttendanceWindow.Show()));
+            stateMachine.AddStateEntryAction(ApplicationState.NavigationWindow, () => UpdateUI(() => m_NavigationWindow.Show()));
 
             // Exit actions
             stateMachine.AddStateExitAction(ApplicationState.LogInWindow, () => UpdateUI(() => m_LogInWindow.Hide()));
@@ -205,6 +215,7 @@ namespace LogInClient
             stateMachine.AddStateExitAction(ApplicationState.GalleryWindow, () => UpdateUI(() => m_GalleryWindow.Hide()));
             stateMachine.AddStateExitAction(ApplicationState.ForgotPasswordWindow, () => UpdateUI(() => m_ForgotPasswordWindow.Hide()));
             stateMachine.AddStateExitAction(ApplicationState.AttendanceWindow, () => UpdateUI(() => m_GeneralAttendanceWindow.Hide()));
+            stateMachine.AddStateExitAction(ApplicationState.NavigationWindow, () => UpdateUI(() => m_NavigationWindow.Hide()));
 
             return stateMachine;
         }
