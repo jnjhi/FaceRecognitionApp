@@ -27,6 +27,7 @@
         GetAllAttendanceRequest,
         GetAllAttendanceResponse,
         GetAdvancedPersonDataWithProfilePictureByIdRequest,
-        GetAdvancedPersonDataWithProfilePictureByIdResponse
+        GetAdvancedPersonDataWithProfilePictureByIdResponse,
+        DisconnectMessage
     }
 }

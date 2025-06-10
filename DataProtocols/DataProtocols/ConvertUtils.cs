@@ -5,6 +5,7 @@ using DataProtocols.Authentication.LogInMessages;
 using DataProtocols.Authentication.SignUpMessages;
 using DataProtocols.FaceRecognitionMessages;
 using DataProtocols.GalleryMessages;
+using DataProtocols.DisconnectMessages;
 using DataProtocols.NetworkConnection;
 using DataProtocols.RetrievingPersonDataMessages;
 using Newtonsoft.Json;
@@ -38,7 +39,8 @@ namespace DataProtocols
             { DataType.GetAllAttendanceRequest, input => JsonConvert.DeserializeObject<GetAllAttendanceRequestDTO>(input) },
             { DataType.GetAllAttendanceResponse, input => JsonConvert.DeserializeObject<GetAllAttendanceResponseDTO>(input) },
             { DataType.GetAdvancedPersonDataWithProfilePictureByIdRequest, input => JsonConvert.DeserializeObject<GetAdvancedPersonDataWithProfilePictureByIdRequestDTO>(input) },
-            { DataType.GetAdvancedPersonDataWithProfilePictureByIdResponse, input => JsonConvert.DeserializeObject<GetAdvancedPersonDataWithProfilePictureByIdResponseDTO>(input) }
+            { DataType.GetAdvancedPersonDataWithProfilePictureByIdResponse, input => JsonConvert.DeserializeObject<GetAdvancedPersonDataWithProfilePictureByIdResponseDTO>(input) },
+            { DataType.DisconnectMessage, input => JsonConvert.DeserializeObject<DisconnectMessageDTO>(input) }
         };
 
         public static string Serialize(Data data) => JsonConvert.SerializeObject(data, Formatting.Indented);
