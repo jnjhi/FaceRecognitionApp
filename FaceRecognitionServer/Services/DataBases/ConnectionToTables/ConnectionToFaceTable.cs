@@ -1,0 +1,330 @@
+﻿using FaceRecognitionServer.Services.DataBases.Models;
+using NuGet.Protocol.Core.Types;
+using System.Data.SqlClient;
+using System.Text;
+
+namespace FaceRecognitionServer.Services.DataBases.ConnectionToTables
+{
+    // Manages all interactions with the Faces table and related embedding/notes files
+    public class ConnectionToFaceTable : IDisposable
+    {
+        private const string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionServer\Services\DataBases\FaceRecognitionDB.mdf;Integrated Security=True";
+        private readonly string m_BaseFolder = @"C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\DataBaseFiles\\";
+
+        public ConnectionToFaceTable()
+        {
+            // Ensure required directories for embeddings and notes exist
+            Directory.CreateDirectory(Path.Combine(m_BaseFolder, "embeddings"));
+            Directory.CreateDirectory(Path.Combine(m_BaseFolder, "notes"));
+        }
+
+        // Adds a new face record to the database and saves embedding and notes files
+        public void AddFaceRecord(AdvancedFaceData record)
+        {
+            string embeddingPath = SaveEmbeddingToFile(record.GovernmentID ?? record.Id.ToString(), record.FaceEmbedding);
+            string notesPath = SaveNotesToFile(record.GovernmentID ?? record.Id.ToString(), record.Notes);
+
+            using var connection = new SqlConnection(ConnectionString);
+            using var command = new SqlCommand(@"
+            INSERT INTO Faces (GovernmentID, FirstName, LastName, HeightCm, Sex, EmbeddingFilePath, NotesFilePath)
+            VALUES (@governmentId, @firstName, @lastName, @heightCm, @sex, @embeddingPath, @notesPath)", connection);
+
+            // Add parameters
+            command.Parameters.AddWithValue("@governmentId", (object?)record.GovernmentID ?? DBNull.Value);
+            command.Parameters.AddWithValue("@firstName", record.FirstName);
+            command.Parameters.AddWithValue("@lastName", record.LastName);
+            command.Parameters.AddWithValue("@heightCm", (object?)record.HeightCm ?? DBNull.Value);
+            command.Parameters.AddWithValue("@sex", (object?)record.Sex ?? DBNull.Value);
+            command.Parameters.AddWithValue("@embeddingPath", embeddingPath);
+            command.Parameters.AddWithValue("@notesPath", notesPath);
+
+            connection.Open();
+            command.ExecuteNonQuery();
+        }
+
+        // Retrieves all face records from the DB and loads their embeddings and notes from disk
+        public List<AdvancedFaceData> GetAllFaceRecords()
+        {
+            var result = new List<AdvancedFaceData>();
+
+            using var connection = new SqlConnection(ConnectionString);
+            using var command = new SqlCommand("SELECT * FROM Faces", connection);
+
+            connection.Open();
+            using var reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                result.Add(ParseFaceRecord(reader));
+            }
+
+            return result;
+        }
+
+        // Gets a face record by government ID
+        public AdvancedFaceData? GetByGovernmentID(string governmentId)
+        {
+            using var connection = new SqlConnection(ConnectionString);
+            using var command = new SqlCommand("SELECT * FROM Faces WHERE GovernmentID = @id", connection);
+            command.Parameters.AddWithValue("@id", governmentId);
+
+            connection.Open();
+            using var reader = command.ExecuteReader();
+            return reader.Read() ? ParseFaceRecord(reader) : null;
+        }
+
+        // Updates existing face metadata and notes (embedding is unchanged)
+        public void UpdateFaceRecord(AdvancedFaceData record)
+        {
+            string notesPath = SaveNotesToFile(record.GovernmentID ?? record.Id.ToString(), record.Notes);
+
+            using var connection = new SqlConnection(ConnectionString);
+            using var command = new SqlCommand(@"
+                UPDATE Faces SET GovernmentID = @governmentId, FirstName = @firstName, LastName = @lastName, HeightCm = @heightCm, Sex = @sex, NotesFilePath = @notesPath WHERE Id = @id", connection);
+            
+            command.Parameters.AddWithValue("@governmentId", record.GovernmentID);
+            command.Parameters.AddWithValue("@id", record.Id);
+            command.Parameters.AddWithValue("@firstName", record.FirstName);
+            command.Parameters.AddWithValue("@lastName", record.LastName);
+            command.Parameters.AddWithValue("@heightCm", (object?)record.HeightCm ?? DBNull.Value);
+            command.Parameters.AddWithValue("@sex", record.Sex ?? (object)DBNull.Value);
+            command.Parameters.AddWithValue("@notesPath", notesPath);
+
+            connection.Open();
+            command.ExecuteNonQuery();
+        }
+
+        // Inserts a new "unknown" user with autogenerated ID and saves embedding file
+        public AdvancedFaceData InsertUnknownUser(float[] faceEmbedding)
+        {
+            string uniqueGovId = GenerateUniqueGovernmentId();
+
+            int internalId;
+            using (var connection = new SqlConnection(ConnectionString))
+            using (var insert = new SqlCommand(@"
+                INSERT INTO Faces (GovernmentID, FirstName, LastName, HeightCm, Sex, EmbeddingFilePath, NotesFilePath)
+                OUTPUT INSERTED.Id
+                VALUES (@govId, 'UNKNOWN', 'UNKNOWN', NULL, NULL, NULL, NULL)", connection))
+            {
+                insert.Parameters.AddWithValue("@govId", uniqueGovId);
+                connection.Open();
+                internalId = (int)insert.ExecuteScalar();
+            }
+
+            string embeddingRelativePath = SaveEmbeddingToFile(internalId.ToString(), faceEmbedding);
+
+            using (var connection = new SqlConnection(ConnectionString))
+            using (var update = new SqlCommand("UPDATE Faces SET EmbeddingFilePath = @path WHERE Id = @id", connection))
+            {
+                update.Parameters.AddWithValue("@path", embeddingRelativePath);
+                update.Parameters.AddWithValue("@id", internalId);
+                connection.Open();
+                update.ExecuteNonQuery();
+            }
+
+            return new AdvancedFaceData
+            {
+                Id = internalId,
+                GovernmentID = uniqueGovId,
+                FirstName = "UNKNOWN",
+                LastName = "UNKNOWN",
+                HeightCm = null,
+                Sex = null,
+                FaceEmbedding = faceEmbedding,
+                Notes = string.Empty
+            };
+        }
+
+        // Checks if a government ID already exists in another record
+        public bool IsGovernmentIdTaken(string governmentId, int excludingInternalId)
+        {
+            const string sql = "SELECT COUNT(*) FROM Faces WHERE GovernmentID = @governmentId AND Id <> @excludingId";
+
+            using var connection = new SqlConnection(ConnectionString);
+            using var command = new SqlCommand(sql, connection);
+
+            command.Parameters.AddWithValue("@governmentId", governmentId);
+            command.Parameters.AddWithValue("@excludingId", excludingInternalId);
+
+            connection.Open();
+            return (int)command.ExecuteScalar() > 0;
+        }
+
+        // Gets a record by its database ID
+        public AdvancedFaceData? GetById(int id)
+        {
+            using var connection = new SqlConnection(ConnectionString);
+            using var command = new SqlCommand("SELECT * FROM Faces WHERE Id = @id", connection);
+            command.Parameters.AddWithValue("@id", id);
+
+            connection.Open();
+            using var reader = command.ExecuteReader();
+            return reader.Read() ? ParseFaceRecord(reader) : null;
+        }
+
+        public void DeleteAllFaceRecords()
+        {
+            try
+            {
+                using var connection = new SqlConnection(ConnectionString);
+                using var command = new SqlCommand("DELETE FROM Faces", connection);
+                connection.Open();
+                command.ExecuteNonQuery();
+
+                Logger.LogInfo("All records deleted from Faces table.");
+            }
+            catch (Exception ex)
+            {
+                Logger.LogException(ex, "Failed to delete all records from Faces table.");
+            }
+
+            // Optionally delete all embedding and note files
+            try
+            {
+                string embeddingsPath = Path.Combine(m_BaseFolder, "embeddings");
+                string notesPath = Path.Combine(m_BaseFolder, "notes");
+
+                if (Directory.Exists(embeddingsPath))
+                {
+                    foreach (var file in Directory.GetFiles(embeddingsPath))
+                    {
+                        File.Delete(file);
+                    }
+                }
+
+                if (Directory.Exists(notesPath))
+                {
+                    foreach (var file in Directory.GetFiles(notesPath))
+                    {
+                        File.Delete(file);
+                    }
+                }
+
+                Logger.LogInfo("All embedding and notes files deleted.");
+            }
+            catch (Exception ex)
+            {
+                Logger.LogException(ex, "Failed to delete embedding/notes files.");
+            }
+        }
+
+        public BasicFaceData GetPersonInfoById(int personId)
+        {
+            try
+            {
+                using var connection = new SqlConnection(ConnectionString);
+                using var command = BuildSelectCommand(connection, personId);
+
+                connection.Open();
+                using var reader = command.ExecuteReader();
+
+                return ReadSinglePerson(reader);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogException(ex, $"Failed to fetch minimal person info for Id={personId}.");
+                return null;
+            }
+        }
+
+        private SqlCommand BuildSelectCommand(SqlConnection connection, int id)
+        {
+            const string sql =
+                "SELECT Id, GovernmentID, FirstName, LastName " +
+                "FROM Faces " +
+                "WHERE Id = @id";
+
+            var cmd = new SqlCommand(sql, connection);
+            cmd.Parameters.AddWithValue("@id", id);
+            return cmd;
+        }
+
+        private BasicFaceData ReadSinglePerson(SqlDataReader reader)
+        {
+            if (!reader.Read())
+                return null;
+
+            return new BasicFaceData
+            {
+                Id = reader.GetInt32(reader.GetOrdinal("Id")),
+                GovernmentID = reader["GovernmentID"]?.ToString(),
+                FirstName = reader["FirstName"]?.ToString(),
+                LastName = reader["LastName"]?.ToString()
+            };
+        }
+
+        // Converts SQL row into FaceRecord object
+        private AdvancedFaceData ParseFaceRecord(SqlDataReader reader)
+        {
+            var embeddingPath = Path.Combine(m_BaseFolder, reader["EmbeddingFilePath"].ToString() ?? "");
+            var notesPath = Path.Combine(m_BaseFolder, reader["NotesFilePath"].ToString() ?? "");
+
+            return new AdvancedFaceData
+            {
+                Id = (int)reader["Id"],
+                GovernmentID = reader["GovernmentID"].ToString(),
+                FirstName = reader["FirstName"].ToString(),
+                LastName = reader["LastName"].ToString(),
+                HeightCm = reader["HeightCm"] as int?,
+                Sex = reader["Sex"].ToString(),
+                FaceEmbedding = ReadFloatArrayFromFile(embeddingPath),
+                Notes = File.Exists(notesPath) ? File.ReadAllText(notesPath, Encoding.UTF8) : string.Empty
+            };
+        }
+
+        // Save float[] embedding to a file (as Base64 string)
+        private string SaveEmbeddingToFile(string id, float[] embedding)
+        {
+            string relative = Path.Combine("embeddings", id + ".txt");
+            string full = Path.Combine(m_BaseFolder, relative);
+
+            byte[] bytes = new byte[embedding.Length * sizeof(float)];
+            Buffer.BlockCopy(embedding, 0, bytes, 0, bytes.Length);
+            File.WriteAllText(full, Convert.ToBase64String(bytes));
+
+            return relative;
+        }
+
+        // Save notes to file and return relative path
+        private string SaveNotesToFile(string id, string notes)
+        {
+            if (string.IsNullOrWhiteSpace(notes)) return string.Empty;
+
+            string relative = Path.Combine("notes", id + ".txt");
+            File.WriteAllText(Path.Combine(m_BaseFolder, relative), notes, Encoding.UTF8);
+            return relative;
+        }
+
+        // Reads float array from a Base64 text file
+        private static float[] ReadFloatArrayFromFile(string path)
+        {
+            byte[] bytes = Convert.FromBase64String(File.ReadAllText(path));
+            float[] floats = new float[bytes.Length / sizeof(float)];
+            Buffer.BlockCopy(bytes, 0, floats, 0, bytes.Length);
+            return floats;
+        }
+
+        // Generates a random unique Government ID with prefix U
+        private string GenerateUniqueGovernmentId()
+        {
+            string id;
+            do
+            {
+                id = "U" + Guid.NewGuid().ToString("N").Substring(0, 8);
+            } while (IsGovernmentIdExists(id));
+
+            return id;
+        }
+
+        // Checks if a given Government ID exists
+        private bool IsGovernmentIdExists(string id)
+        {
+            using var connection = new SqlConnection(ConnectionString);
+            using var command = new SqlCommand("SELECT COUNT(*) FROM Faces WHERE GovernmentID = @id", connection);
+            command.Parameters.AddWithValue("@id", id);
+            connection.Open();
+            return (int)command.ExecuteScalar() > 0;
+        }
+
+        public void Dispose() { }
+    }
+}

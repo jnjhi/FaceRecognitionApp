@@ -1,0 +1,77 @@
+﻿<Window x:Class="FaceRecognitionClient.Views.GalleryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:FaceRecognitionClient.UIEnhancements.Animation"
+        Title="Gallery" Height="800" Width="1200"
+        Background="#F8F8FF">
+
+    <DockPanel Margin="20">
+
+        <!-- Top Control Bar -->
+        <StackPanel Orientation="Horizontal"
+                    DockPanel.Dock="Top"
+                    HorizontalAlignment="Left"
+                    Margin="0,0,0,10">
+            <Button Content="Back"
+                    Command="{Binding BackCommand}"
+                    Style="{StaticResource ModernButton}"
+                    Width="80"
+                    Margin="0,0,10,0"/>
+            <Button Content="Refresh"
+                    Command="{Binding RefreshCommand}"
+                    Style="{StaticResource ModernButton}"
+                    Width="80"/>
+        </StackPanel>
+
+        <!-- Face Grid -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ItemsControl ItemsSource="{Binding Persons}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel HorizontalAlignment="Center" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="150" Height="200" Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Button Command="{Binding OpenDetailsCommand}"
+                                    BorderThickness="0"
+                                    Background="Transparent"
+                                    Width="130" Height="130"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center">
+                                 <Border Width="130" Height="130" CornerRadius="65" ClipToBounds="True">
+                                    <Image Width="130" Height="130"
+                                        Source="{Binding PersonData.ProfileImage}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Margin="0,0,0,0">
+                                        <Image.Clip>
+                                            <EllipseGeometry Center="65,65" RadiusX="65" RadiusY="65"/>
+                                        </Image.Clip>
+                                    </Image>
+                                </Border>
+                            </Button>
+
+
+                            <TextBlock Text="{Binding PersonData.FirstName}"
+                                       FontSize="14"
+                                       FontWeight="SemiBold"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Top"
+                                       Margin="0,10,0,0"
+                                       Grid.Row="1"
+                                       TextTrimming="CharacterEllipsis"/>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

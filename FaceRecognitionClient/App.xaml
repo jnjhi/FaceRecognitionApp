@@ -1,0 +1,16 @@
+﻿<Application x:Class="FaceRecognitionClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FaceRecognitionClient" >
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source= "UIEnhancements\Theme\ModernButton.xaml"/>
+                <ResourceDictionary Source="UIEnhancements\Theme\FlatStyleComboBox.xaml"/>
+                <ResourceDictionary Source="UIEnhancements\Theme\PeekButtonStyle.xaml"/>
+                <ResourceDictionary Source="UIEnhancements\Theme\FlatScrollBar.xaml"/>
+                <ResourceDictionary Source="UIEnhancements\Theme\TabStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denis\\source\\repos\\Encryption\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|c:\\users\\denis\\source\\repos\\encryption\\encryption\\encryption.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|solutionrelative:encryption\\encryption.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|c:\\users\\denis\\source\\repos\\encryption\\encryption\\rsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|solutionrelative:encryption\\rsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|c:\\users\\denis\\source\\repos\\encryption\\encryption\\irsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|solutionrelative:encryption\\irsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|c:\\users\\denis\\source\\repos\\encryption\\encryption\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|solutionrelative:encryption\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|c:\\users\\denis\\source\\repos\\encryption\\encryption\\iaesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{343E67B4-847E-4501-90E9-13160B9550C7}|Encryption\\Encryption.csproj|solutionrelative:encryption\\iaesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Encryption",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\Encryption.csproj",
+              "RelativeDocumentMoniker": "Encryption\\Encryption.csproj",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\Encryption.csproj",
+              "RelativeToolTip": "Encryption\\Encryption.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-25T18:56:30.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAESEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\IAESEncryption.cs",
+              "RelativeDocumentMoniker": "Encryption\\IAESEncryption.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\IAESEncryption.cs",
+              "RelativeToolTip": "Encryption\\IAESEncryption.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:27:21.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RSAEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\RSAEncryption.cs",
+              "RelativeDocumentMoniker": "Encryption\\RSAEncryption.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\RSAEncryption.cs",
+              "RelativeToolTip": "Encryption\\RSAEncryption.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:56:39.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRSAEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\IRSAEncryption.cs",
+              "RelativeDocumentMoniker": "Encryption\\IRSAEncryption.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\IRSAEncryption.cs",
+              "RelativeToolTip": "Encryption\\IRSAEncryption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:43:27.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AESEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\AESEncryption.cs",
+              "RelativeDocumentMoniker": "Encryption\\AESEncryption.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\Encryption\\Encryption\\AESEncryption.cs",
+              "RelativeToolTip": "Encryption\\AESEncryption.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T18:01:49.41Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

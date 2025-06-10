@@ -1,0 +1,33 @@
+﻿<Window x:Class="FaceRecognitionClient.MVVMStructures.Views.PersonProfile.PersonProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FaceRecognitionClient.MVVMStructures.Views.PersonProfile"
+        mc:Ignorable="d"
+        Title="PersonProfile" 
+        Height="800" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="White">
+
+    <Grid>
+        <TabControl SelectedIndex="{Binding SelectedTabIndex}"
+                    Margin="20"
+                    Background="White"
+                    BorderThickness="0"
+                    Padding="10"
+                    FontSize="16"
+                    FontWeight="Normal">
+
+            <TabItem Header="Details">
+                <local:FaceDetailsView DataContext="{Binding PersonalDetailsViewModel}" />
+            </TabItem>
+
+            <TabItem Header="Attendance">
+                <local:AttendanceView DataContext="{Binding AttendanceRecordsViewModel}" />
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</Window>

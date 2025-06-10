@@ -1,0 +1,1699 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\personprofile\\personaldetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\personprofile\\personaldetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\personprofile\\personprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\personprofile\\personprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\personprofile\\facedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\personprofile\\facedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\personprofile\\facedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\personprofile\\facedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\internaldatamodels\\advancedpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:internaldatamodels\\advancedpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\attendance\\generalattendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\attendance\\generalattendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\gallery\\galleryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\gallery\\galleryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\facerecognition\\facerecognitionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\facerecognition\\facerecognitionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\sharedimagestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:sharedimagestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\logger\\client-log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:logger\\client-log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\attendance\\generalattendancemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\attendance\\generalattendancemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\attendance\\generalattendanceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\attendance\\generalattendanceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\gallery\\gallerywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\gallery\\gallerywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\statemachine\\applicationstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:statemachine\\applicationstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\statemachine\\applicationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:statemachine\\applicationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\facerecognition\\facerecognitionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\facerecognition\\facerecognitionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\facerecognition\\facerecoginitionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\facerecognition\\facerecoginitionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\helpers\\booltosortlabelconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\helpers\\booltosortlabelconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\helpers\\bindablepasswordbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\helpers\\bindablepasswordbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\attendance\\generalattendanceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\attendance\\generalattendanceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\commands\\asyncrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:commands\\asyncrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\personprofile\\attendancemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\personprofile\\attendancemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\logger\\clientlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:logger\\clientlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\personprofile\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\personprofile\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\personprofile\\attendancerecordsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\personprofile\\attendancerecordsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\personprofile\\attendanceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\personprofile\\attendanceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\personprofile\\personprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\personprofile\\personprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\personprofile\\personprofiletab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\personprofile\\personprofiletab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\personprofile\\facedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\personprofile\\facedetailsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\personprofile\\attendanceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\personprofile\\attendanceview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\personprofile\\facedetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\personprofile\\facedetailsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\facerecognition\\facerecordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\facerecognition\\facerecordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\imagedebugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\imagedebugviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\FaceDetails\\AttendanceView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\FaceDetails\\AttendanceView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\theme\\tabstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\theme\\tabstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\inetworkfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:inetworkfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\debugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\debugview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\gallery\\gallerymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\gallery\\gallerymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\utils\\imageprocessingutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:utils\\imageprocessingutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\debugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\debugview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\gallery\\galleryimageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\gallery\\galleryimageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\istateactivatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:istateactivatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\networkfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:networkfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\persondatalegitimacycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\persondatalegitimacycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\facerecognition\\cameracapturewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\facerecognition\\cameracapturewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\services\\facerecognitionservice\\detectedface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:services\\facerecognitionservice\\detectedface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\network\\securenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:network\\securenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\services\\galleryservice\\galleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:services\\galleryservice\\galleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\services\\galleryservice\\igalleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:services\\galleryservice\\igalleryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\authentication\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\authentication\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\authentication\\emailverificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\authentication\\emailverificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\authentication\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\authentication\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\internaldatamodels\\basicpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:internaldatamodels\\basicpersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\internaldatamodels\\persondatavalidationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:internaldatamodels\\persondatavalidationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\internaldatamodels\\prerecognitionfacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:internaldatamodels\\prerecognitionfacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\network\\isecurenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:network\\isecurenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\services\\facerecognitionservice\\ifaceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:services\\facerecognitionservice\\ifaceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\services\\facerecognitionservice\\facecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:services\\facerecognitionservice\\facecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\services\\facerecognitionservice\\faceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:services\\facerecognitionservice\\faceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\facerecognition\\cameracaptureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\facerecognition\\cameracaptureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\authentication\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\authentication\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\authentication\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\authentication\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\authentication\\emailverificationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\authentication\\emailverificationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\viewmodels\\authentication\\captchaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\viewmodels\\authentication\\captchaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\authentication\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\authentication\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\models\\authentication\\loginlegitimacycheckingutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\models\\authentication\\loginlegitimacycheckingutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\network\\inetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:network\\inetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\statemachine\\istatenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:statemachine\\istatenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\statemachine\\istatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:statemachine\\istatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\statemachine\\idetailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:statemachine\\idetailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\theme\\flatscrollbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\theme\\flatscrollbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\theme\\flatstylecombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\theme\\flatstylecombobox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\services\\facerecognitionservice\\facerecognitiondisplaydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:services\\facerecognitionservice\\facerecognitiondisplaydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\signupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\signupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\captchawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\captchawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Gallery\\GalleryWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Gallery\\GalleryWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\animation\\gridlengthanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\animation\\gridlengthanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\LogInWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\LogInWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\SignUpWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\SignUpWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\emailverificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\emailverificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\theme\\peekbuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\theme\\peekbuttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\uienhancements\\theme\\modernbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:uienhancements\\theme\\modernbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONCLIENT_GALLERYSERVICE_GALLERYDATABASE_GALERYDATABASE.MDF/True/SqlTable/dbo.Images.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONCLIENT_GALLERYSERVICE_GALLERYDATABASE_GALERYDATABASE.MDF/True/SqlTable/dbo.RecognizedPersons.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Authentication\\LogInWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\Views\\Authentication\\LogInWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\gallery\\gallerywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\gallery\\gallerywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionclient\\mvvmstructures\\views\\authentication\\forgotpasswordwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C96F825E-80CB-4D5E-B883-13E834E3CC5D}|FaceRecognitionClient.csproj|solutionrelative:mvvmstructures\\views\\authentication\\forgotpasswordwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FaceDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\FaceDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\PersonProfile\\FaceDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\FaceDetailsViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\PersonProfile\\FaceDetailsViewModel.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T12:41:02.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonalDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\PersonalDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\PersonProfile\\PersonalDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\PersonalDetailsViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\PersonProfile\\PersonalDetailsViewModel.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAuwMQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:52:06.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdvancedPersonData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\AdvancedPersonData.cs",
+              "RelativeDocumentMoniker": "InternalDataModels\\AdvancedPersonData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\AdvancedPersonData.cs",
+              "RelativeToolTip": "InternalDataModels\\AdvancedPersonData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:53:23.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FaceDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\PersonProfile\\FaceDetailsModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\PersonProfile\\FaceDetailsModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\PersonProfile\\FaceDetailsModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\PersonProfile\\FaceDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:44:19.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwB0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:48:35.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GalleryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Gallery\\GalleryViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Gallery\\GalleryViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Gallery\\GalleryViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Gallery\\GalleryViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAhwBgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:21:07.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SharedImageStore.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\SharedImageStore.cs",
+              "RelativeDocumentMoniker": "SharedImageStore.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\SharedImageStore.cs",
+              "RelativeToolTip": "SharedImageStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T16:22:49.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FaceRecognitionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecognitionViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecognitionViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecognitionViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecognitionViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAtwC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:37:49.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WindowService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\WindowService.cs",
+              "RelativeDocumentMoniker": "WindowService.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\WindowService.cs",
+              "RelativeToolTip": "WindowService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:16:18.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeneralAttendanceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Attendance\\GeneralAttendanceViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Attendance\\GeneralAttendanceViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Attendance\\GeneralAttendanceViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Attendance\\GeneralAttendanceViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADgvw8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T18:45:50.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "client-log.txt",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Logger\\client-log.txt",
+              "RelativeDocumentMoniker": "Logger\\client-log.txt",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Logger\\client-log.txt",
+              "RelativeToolTip": "Logger\\client-log.txt",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-01T19:18:38.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationState.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\ApplicationState.cs",
+              "RelativeDocumentMoniker": "StateMachine\\ApplicationState.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\ApplicationState.cs",
+              "RelativeToolTip": "StateMachine\\ApplicationState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:45.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GalleryWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-20T12:41:05.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GeneralAttendanceModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Attendance\\GeneralAttendanceModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\Attendance\\GeneralAttendanceModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Attendance\\GeneralAttendanceModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\Attendance\\GeneralAttendanceModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA3wBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T18:54:53.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GeneralAttendanceView.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T17:57:44.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\StateMachine.cs",
+              "RelativeDocumentMoniker": "StateMachine\\StateMachine.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\StateMachine.cs",
+              "RelativeToolTip": "StateMachine\\StateMachine.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwC8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:14:27.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\ApplicationTrigger.cs",
+              "RelativeDocumentMoniker": "StateMachine\\ApplicationTrigger.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\ApplicationTrigger.cs",
+              "RelativeToolTip": "StateMachine\\ApplicationTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T12:55:37.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FaceRecognitionModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\FaceRecognition\\FaceRecognitionModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\FaceRecognition\\FaceRecognitionModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\FaceRecognition\\FaceRecognitionModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\FaceRecognition\\FaceRecognitionModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEEAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:55:35.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FaceRecoginitionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\FaceRecognition\\FaceRecoginitionWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\FaceRecognition\\FaceRecoginitionWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\FaceRecognition\\FaceRecoginitionWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\FaceRecognition\\FaceRecoginitionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-15T11:09:37.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BindablePasswordBox.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Helpers\\BindablePasswordBox.cs",
+              "RelativeDocumentMoniker": "UIEnhancements\\Helpers\\BindablePasswordBox.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Helpers\\BindablePasswordBox.cs",
+              "RelativeToolTip": "UIEnhancements\\Helpers\\BindablePasswordBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:43:10.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GeneralAttendanceView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\Attendance\\GeneralAttendanceView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T18:02:11.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BoolToSortLabelConverter.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Helpers\\BoolToSortLabelConverter.cs",
+              "RelativeDocumentMoniker": "UIEnhancements\\Helpers\\BoolToSortLabelConverter.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Helpers\\BoolToSortLabelConverter.cs",
+              "RelativeToolTip": "UIEnhancements\\Helpers\\BoolToSortLabelConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T18:02:58.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AsyncRelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Commands\\AsyncRelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\AsyncRelayCommand.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Commands\\AsyncRelayCommand.cs",
+              "RelativeToolTip": "Commands\\AsyncRelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:32:00.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Mapper.cs",
+              "RelativeDocumentMoniker": "Mapper.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Mapper.cs",
+              "RelativeToolTip": "Mapper.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwI4AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:49:03.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AttendanceModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\PersonProfile\\AttendanceModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\PersonProfile\\AttendanceModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\PersonProfile\\AttendanceModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\PersonProfile\\AttendanceModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:01:29.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PersonProfileWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\PersonProfileWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\PersonProfile\\PersonProfileWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\PersonProfileWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\PersonProfile\\PersonProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T16:48:10.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AttendanceRecordsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecordsViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecordsViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecordsViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecordsViewModel.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIBJwBUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:56:21.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AttendanceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecord.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecord.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecord.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\PersonProfile\\AttendanceRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:57:57.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClientLogger.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Logger\\ClientLogger.cs",
+              "RelativeDocumentMoniker": "Logger\\ClientLogger.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Logger\\ClientLogger.cs",
+              "RelativeToolTip": "Logger\\ClientLogger.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA1wDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:09:58.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PersonProfileTab.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileTab.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileTab.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileTab.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\PersonProfile\\PersonProfileTab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:49:43.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AttendanceView.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T20:22:43.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FaceDetailsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:50:00.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AttendanceView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\PersonProfile\\AttendanceView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:22:49.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FaceDetailsView.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\PersonProfile\\FaceDetailsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T16:33:24.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:18:07.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FaceRecordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecordViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecordViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecordViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\FaceRecognition\\FaceRecordViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T12:58:58.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ImageDebugViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\ImageDebugViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\ImageDebugViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\ImageDebugViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\ImageDebugViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T22:24:49.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AttendanceView.g.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\FaceDetails\\AttendanceView.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\FaceDetails\\AttendanceView.g.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\FaceDetails\\AttendanceView.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\FaceDetails\\AttendanceView.g.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:21:08.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T13:16:51.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TabStyles.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\TabStyles.xaml",
+              "RelativeDocumentMoniker": "UIEnhancements\\Theme\\TabStyles.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\TabStyles.xaml",
+              "RelativeToolTip": "UIEnhancements\\Theme\\TabStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T20:11:35.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GalleryModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Gallery\\GalleryModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\Gallery\\GalleryModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Gallery\\GalleryModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\Gallery\\GalleryModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:32:02.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DebugView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\DebugView.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\DebugView.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\DebugView.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\DebugView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T22:26:54.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "INetworkFacade.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\INetworkFacade.cs",
+              "RelativeDocumentMoniker": "INetworkFacade.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\INetworkFacade.cs",
+              "RelativeToolTip": "INetworkFacade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:08:43.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ImageProcessingUtils.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Utils\\ImageProcessingUtils.cs",
+              "RelativeDocumentMoniker": "Utils\\ImageProcessingUtils.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Utils\\ImageProcessingUtils.cs",
+              "RelativeToolTip": "Utils\\ImageProcessingUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:54:28.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DebugView.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\DebugView.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\DebugView.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\DebugView.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\DebugView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T22:26:14.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GalleryImageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Gallery\\GalleryImageViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Gallery\\GalleryImageViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Gallery\\GalleryImageViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Gallery\\GalleryImageViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowA0AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T18:21:06.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IStateActivatable.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\IStateActivatable.cs",
+              "RelativeDocumentMoniker": "IStateActivatable.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\IStateActivatable.cs",
+              "RelativeToolTip": "IStateActivatable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:26:05.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NetworkFacade.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\NetworkFacade.cs",
+              "RelativeDocumentMoniker": "NetworkFacade.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\NetworkFacade.cs",
+              "RelativeToolTip": "NetworkFacade.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAnwD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:10:25.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PersonDataLegitimacyCheck.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\PersonDataLegitimacyCheck.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\PersonDataLegitimacyCheck.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\PersonDataLegitimacyCheck.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\PersonDataLegitimacyCheck.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:07:44.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CameraCaptureWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\FaceRecognition\\CameraCaptureWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\FaceRecognition\\CameraCaptureWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\FaceRecognition\\CameraCaptureWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\FaceRecognition\\CameraCaptureWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-18T11:04:17.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DetectedFace.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\DetectedFace.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\DetectedFace.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\DetectedFace.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\DetectedFace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:05:03.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SecureNetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Network\\SecureNetworkManager.cs",
+              "RelativeDocumentMoniker": "Network\\SecureNetworkManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Network\\SecureNetworkManager.cs",
+              "RelativeToolTip": "Network\\SecureNetworkManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:38.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IGalleryService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\GalleryService\\IGalleryService.cs",
+              "RelativeDocumentMoniker": "Services\\GalleryService\\IGalleryService.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\GalleryService\\IGalleryService.cs",
+              "RelativeToolTip": "Services\\GalleryService\\IGalleryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:42:20.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GalleryService.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\GalleryService\\GalleryService.cs",
+              "RelativeDocumentMoniker": "Services\\GalleryService\\GalleryService.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\GalleryService\\GalleryService.cs",
+              "RelativeToolTip": "Services\\GalleryService\\GalleryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:18:13.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UserSession.cs",
+              "RelativeDocumentMoniker": "UserSession.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UserSession.cs",
+              "RelativeToolTip": "UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:53:59.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LogInWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\LogInWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\LogInWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\LogInWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\LogInWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T18:11:24.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\Authentication\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\Authentication\\ForgotPasswordModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:54:31.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EmailVerificationModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\EmailVerificationModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\Authentication\\EmailVerificationModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\EmailVerificationModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\Authentication\\EmailVerificationModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:30:48.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LogInViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\LogInViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Authentication\\LogInViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\LogInViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Authentication\\LogInViewModel.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAUwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T12:40:53.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BasicPersonData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\BasicPersonData.cs",
+              "RelativeDocumentMoniker": "InternalDataModels\\BasicPersonData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\BasicPersonData.cs",
+              "RelativeToolTip": "InternalDataModels\\BasicPersonData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:46:36.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PersonDataValidationResult.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\PersonDataValidationResult.cs",
+              "RelativeDocumentMoniker": "InternalDataModels\\PersonDataValidationResult.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\PersonDataValidationResult.cs",
+              "RelativeToolTip": "InternalDataModels\\PersonDataValidationResult.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:09:03.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PreRecognitionFaceData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\PreRecognitionFaceData.cs",
+              "RelativeDocumentMoniker": "InternalDataModels\\PreRecognitionFaceData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\InternalDataModels\\PreRecognitionFaceData.cs",
+              "RelativeToolTip": "InternalDataModels\\PreRecognitionFaceData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:13:14.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ISecureNetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Network\\ISecureNetworkManager.cs",
+              "RelativeDocumentMoniker": "Network\\ISecureNetworkManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Network\\ISecureNetworkManager.cs",
+              "RelativeToolTip": "Network\\ISecureNetworkManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:28.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IFaceProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\IFaceProcessor.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\IFaceProcessor.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\IFaceProcessor.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\IFaceProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T09:57:19.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "FaceComparer.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\FaceComparer.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceComparer.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\FaceComparer.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceComparer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T09:53:50.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "FaceProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T09:56:35.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:09.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CameraCaptureViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\FaceRecognition\\CameraCaptureViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\FaceRecognition\\CameraCaptureViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\FaceRecognition\\CameraCaptureViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\FaceRecognition\\CameraCaptureViewModel.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAIBJwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:16:41.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "SignUpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\SignUpViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Authentication\\SignUpViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\SignUpViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Authentication\\SignUpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:14:05.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Authentication\\ForgotPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Authentication\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:53:19.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "EmailVerificationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\EmailVerificationViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Authentication\\EmailVerificationViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\EmailVerificationViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Authentication\\EmailVerificationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:29:43.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CaptchaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\CaptchaViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\ViewModels\\Authentication\\CaptchaViewModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\ViewModels\\Authentication\\CaptchaViewModel.cs",
+              "RelativeToolTip": "MVVMStructures\\ViewModels\\Authentication\\CaptchaViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T11:41:30.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "LogInModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\LogInModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\Authentication\\LogInModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\LogInModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\Authentication\\LogInModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:47:45.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\Authentication\\SignUpModel.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\SignUpModel.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\Authentication\\SignUpModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:13:57.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "LogInLegitimacyCheckingUtils.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\LogInLegitimacyCheckingUtils.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Models\\Authentication\\LogInLegitimacyCheckingUtils.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Models\\Authentication\\LogInLegitimacyCheckingUtils.cs",
+              "RelativeToolTip": "MVVMStructures\\Models\\Authentication\\LogInLegitimacyCheckingUtils.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowEEAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:13.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "INetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Network\\INetworkManager.cs",
+              "RelativeDocumentMoniker": "Network\\INetworkManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Network\\INetworkManager.cs",
+              "RelativeToolTip": "Network\\INetworkManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBJwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:23.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "IStateNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\IStateNotifier.cs",
+              "RelativeDocumentMoniker": "StateMachine\\IStateNotifier.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\IStateNotifier.cs",
+              "RelativeToolTip": "StateMachine\\IStateNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:56.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\IStateMachine.cs",
+              "RelativeDocumentMoniker": "StateMachine\\IStateMachine.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\IStateMachine.cs",
+              "RelativeToolTip": "StateMachine\\IStateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:17:51.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IDetailNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\IDetailNotifier.cs",
+              "RelativeDocumentMoniker": "StateMachine\\IDetailNotifier.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\StateMachine\\IDetailNotifier.cs",
+              "RelativeToolTip": "StateMachine\\IDetailNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T12:03:34.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "FlatScrollBar.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\FlatScrollBar.xaml",
+              "RelativeDocumentMoniker": "UIEnhancements\\Theme\\FlatScrollBar.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\FlatScrollBar.xaml",
+              "RelativeToolTip": "UIEnhancements\\Theme\\FlatScrollBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T16:50:35.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "FlatStyleComboBox.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\FlatStyleComboBox.xaml",
+              "RelativeDocumentMoniker": "UIEnhancements\\Theme\\FlatStyleComboBox.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\FlatStyleComboBox.xaml",
+              "RelativeToolTip": "UIEnhancements\\Theme\\FlatStyleComboBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T20:40:31.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "FaceRecognitionDisplayData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\FaceRecognitionDisplayData.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceRecognitionDisplayData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\Services\\FaceRecognitionService\\FaceRecognitionDisplayData.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceRecognitionDisplayData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:16:29.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "SignUpWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:24:29.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CaptchaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\CaptchaWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\CaptchaWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\CaptchaWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\CaptchaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-19T11:49:25.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "LogInWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\LogInWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\LogInWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\LogInWindow.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\LogInWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:40:46.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ForgotPasswordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:39:50.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ForgotPasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T10:40:38.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "SignUpWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\SignUpWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-20T15:49:04.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "GalleryWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Gallery\\GalleryWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Gallery\\GalleryWindow.g.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Gallery\\GalleryWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Gallery\\GalleryWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:10:56.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ForgotPasswordWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.g.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:14:04.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "GridLengthAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Animation\\GridLengthAnimation.cs",
+              "RelativeDocumentMoniker": "UIEnhancements\\Animation\\GridLengthAnimation.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Animation\\GridLengthAnimation.cs",
+              "RelativeToolTip": "UIEnhancements\\Animation\\GridLengthAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:27:57.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "LogInWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\LogInWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\LogInWindow.g.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\LogInWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\LogInWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:13:06.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "SignUpWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\SignUpWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\SignUpWindow.g.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\SignUpWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\MVVMStructures\\Views\\Authentication\\SignUpWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:11:05.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "EmailVerificationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\EmailVerificationWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\EmailVerificationWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\EmailVerificationWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\EmailVerificationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-19T14:56:16.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "PeekButtonStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\PeekButtonStyle.xaml",
+              "RelativeDocumentMoniker": "UIEnhancements\\Theme\\PeekButtonStyle.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\PeekButtonStyle.xaml",
+              "RelativeToolTip": "UIEnhancements\\Theme\\PeekButtonStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T21:21:51.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:16:47.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ModernButton.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\ModernButton.xaml",
+              "RelativeDocumentMoniker": "UIEnhancements\\Theme\\ModernButton.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\UIEnhancements\\Theme\\ModernButton.xaml",
+              "RelativeToolTip": "UIEnhancements\\Theme\\ModernButton.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T20:49:10.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "dbo.Images.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONCLIENT_GALLERYSERVICE_GALLERYDATABASE_GALERYDATABASE.MDF/True/SqlTable/dbo.Images.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONCLIENT_GALLERYSERVICE_GALLERYDATABASE_GALERYDATABASE.MDF/True/SqlTable/dbo.Images.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-22T17:58:21.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "dbo.RecognizedPersons.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONCLIENT_GALLERYSERVICE_GALLERYDATABASE_GALERYDATABASE.MDF/True/SqlTable/dbo.RecognizedPersons.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONCLIENT_GALLERYSERVICE_GALLERYDATABASE_GALERYDATABASE.MDF/True/SqlTable/dbo.RecognizedPersons.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-22T17:58:08.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "LogInWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Authentication\\LogInWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\Views\\Authentication\\LogInWindow.g.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Authentication\\LogInWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\Views\\Authentication\\LogInWindow.g.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T19:56:52.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "GalleryWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml.cs",
+              "RelativeToolTip": "MVVMStructures\\Views\\Gallery\\GalleryWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:45:27.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "GalleryWindow.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.i.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.i.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:31:03.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:16:59.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "GalleryWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\Views\\Gallery\\GalleryWindow.g.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:23:11.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "ForgotPasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionClient\\MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "RelativeToolTip": "MVVMStructures\\Views\\Authentication\\ForgotPasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T10:39:25.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\denis\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ViewState": "AgIAAKoBAAAAAAAAAIBZwLUBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:42:55.776Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

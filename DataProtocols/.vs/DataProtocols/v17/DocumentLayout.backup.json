@@ -1,0 +1,634 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\convertutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\convertutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\retrievingpersondatamessages\\getadvancedpersondatawithprofilepicturebyidrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\retrievingpersondatamessages\\getadvancedpersondatawithprofilepicturebyidrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\attendancemessages\\getallattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\attendancemessages\\getallattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\attendancemessages\\getallattendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\attendancemessages\\getallattendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\attendancemessages\\attendanceentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\attendancemessages\\attendanceentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\retrievingpersondatamessages\\getadvancedpersondatawithprofilepicturebyidresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\retrievingpersondatamessages\\getadvancedpersondatawithprofilepicturebyidresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\gallerymessages\\models\\facerecordwithprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\gallerymessages\\models\\facerecordwithprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\fullpersondatawithprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\fullpersondatawithprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\facerecognitionmessages\\models\\persondatavalidationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\facerecognitionmessages\\models\\persondatavalidationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\attendancemessages\\personminimaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\attendancemessages\\personminimaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\attendancemessages\\getpersonattendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\attendancemessages\\getpersonattendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\attendancemessages\\getpersonattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\attendancemessages\\getpersonattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\facerecognitionmessages\\models\\prerecognitiondatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\facerecognitionmessages\\models\\prerecognitiondatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\gallerymessages\\getgalleryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\gallerymessages\\getgalleryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\gallerymessages\\getgalleryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\gallerymessages\\getgalleryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\facerecognitionmessages\\updatepersondataresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\facerecognitionmessages\\updatepersondataresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\facerecognitionmessages\\prerecognitionfacedatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\facerecognitionmessages\\prerecognitionfacedatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\facerecognitionmessages\\facerecognitionresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\facerecognitionmessages\\facerecognitionresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\facerecognitionmessages\\updatepersondatarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\facerecognitionmessages\\updatepersondatarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\forgotpasswordmessages\\forgotpasswordcoderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\forgotpasswordmessages\\forgotpasswordcoderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\emailvereficationmessages\\emailverificationcoderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\emailvereficationmessages\\emailverificationcoderequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\emailvereficationmessages\\emailverificationcodeverificationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\emailvereficationmessages\\emailverificationcodeverificationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\emailvereficationmessages\\emailverificationcodeverificationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\emailvereficationmessages\\emailverificationcodeverificationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\gallerymessages\\models\\profilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\gallerymessages\\models\\profilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\gallerymessages\\models\\facerecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\gallerymessages\\models\\facerecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\networkconnection\\rsapublickeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\networkconnection\\rsapublickeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\models\\userdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\models\\userdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\loginmessages\\loginanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\loginmessages\\loginanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\loginmessages\\logindatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\loginmessages\\logindatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\signupmessages\\signupanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\signupmessages\\signupanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\signupmessages\\signupdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\signupmessages\\signupdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\errormessages\\validationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\errormessages\\validationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\forgotpasswordmessages\\resetpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\forgotpasswordmessages\\resetpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\authentication\\forgotpasswordmessages\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\authentication\\forgotpasswordmessages\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\dataprotocols\\dataprotocols\\networkconnection\\aeskeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FBE1E0-C5CF-439F-8516-568CF362B1B3}|DataProtocols\\DataProtocols.csproj|solutionrelative:dataprotocols\\networkconnection\\aeskeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAdvancedPersonDataWithProfilePictureByIdRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T17:55:03.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllAttendanceRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetAllAttendanceRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\AttendanceMessages\\GetAllAttendanceRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetAllAttendanceRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\AttendanceMessages\\GetAllAttendanceRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:00:14.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllAttendanceResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetAllAttendanceResponseDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\AttendanceMessages\\GetAllAttendanceResponseDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetAllAttendanceResponseDTO.cs",
+              "RelativeToolTip": "DataProtocols\\AttendanceMessages\\GetAllAttendanceResponseDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:01:17.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttendanceEntryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\AttendanceEntryDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\AttendanceMessages\\AttendanceEntryDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\AttendanceEntryDTO.cs",
+              "RelativeToolTip": "DataProtocols\\AttendanceMessages\\AttendanceEntryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:43:17.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataType.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\DataType.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\DataType.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\DataType.cs",
+              "RelativeToolTip": "DataProtocols\\DataType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:26:15.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConvertUtils.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\ConvertUtils.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\ConvertUtils.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\ConvertUtils.cs*",
+              "RelativeToolTip": "DataProtocols\\ConvertUtils.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCgAAACwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:36:59.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAdvancedPersonDataWithProfilePictureByIdResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdResponseDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdResponseDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdResponseDTO.cs",
+              "RelativeToolTip": "DataProtocols\\RetrievingPersonDataMessages\\GetAdvancedPersonDataWithProfilePictureByIdResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T17:58:15.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FaceRecordWithProfilePictureDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\Models\\FaceRecordWithProfilePictureDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\GalleryMessages\\Models\\FaceRecordWithProfilePictureDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\Models\\FaceRecordWithProfilePictureDTO.cs",
+              "RelativeToolTip": "DataProtocols\\GalleryMessages\\Models\\FaceRecordWithProfilePictureDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:51:29.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FullPersonDataWithProfilePictureDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FullPersonDataWithProfilePictureDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\FullPersonDataWithProfilePictureDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FullPersonDataWithProfilePictureDTO.cs",
+              "RelativeToolTip": "DataProtocols\\FullPersonDataWithProfilePictureDTO.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA7wAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:48:56.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Data.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Data.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Data.cs",
+              "RelativeToolTip": "DataProtocols\\Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:23:06.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PersonDataValidationResultDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\Models\\PersonDataValidationResultDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\FaceRecognitionMessages\\Models\\PersonDataValidationResultDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\Models\\PersonDataValidationResultDTO.cs",
+              "RelativeToolTip": "DataProtocols\\FaceRecognitionMessages\\Models\\PersonDataValidationResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:28:05.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetPersonAttendanceResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetPersonAttendanceResponseDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\AttendanceMessages\\GetPersonAttendanceResponseDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetPersonAttendanceResponseDTO.cs",
+              "RelativeToolTip": "DataProtocols\\AttendanceMessages\\GetPersonAttendanceResponseDTO.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAawCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:59:26.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PersonMinimalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\PersonMinimalDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\AttendanceMessages\\PersonMinimalDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\PersonMinimalDTO.cs",
+              "RelativeToolTip": "DataProtocols\\AttendanceMessages\\PersonMinimalDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:57:11.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetPersonAttendanceRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetPersonAttendanceRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\AttendanceMessages\\GetPersonAttendanceRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\AttendanceMessages\\GetPersonAttendanceRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\AttendanceMessages\\GetPersonAttendanceRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:57:50.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetGalleryRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\GetGalleryRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\GalleryMessages\\GetGalleryRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\GetGalleryRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\GalleryMessages\\GetGalleryRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:50:29.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdatePersonDataResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataResponseDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataResponseDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataResponseDTO.cs",
+              "RelativeToolTip": "DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:00:05.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetGalleryResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\GetGalleryResponseDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\GalleryMessages\\GetGalleryResponseDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\GetGalleryResponseDTO.cs",
+              "RelativeToolTip": "DataProtocols\\GalleryMessages\\GetGalleryResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:18:54.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PreRecognitionDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\Models\\PreRecognitionDataDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\FaceRecognitionMessages\\Models\\PreRecognitionDataDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\Models\\PreRecognitionDataDTO.cs",
+              "RelativeToolTip": "DataProtocols\\FaceRecognitionMessages\\Models\\PreRecognitionDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:46:54.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PreRecognitionFaceDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\PreRecognitionFaceDataDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\FaceRecognitionMessages\\PreRecognitionFaceDataDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\PreRecognitionFaceDataDTO.cs",
+              "RelativeToolTip": "DataProtocols\\FaceRecognitionMessages\\PreRecognitionFaceDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:46:32.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FaceRecognitionResultDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\FaceRecognitionResultDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\FaceRecognitionMessages\\FaceRecognitionResultDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\FaceRecognitionResultDTO.cs",
+              "RelativeToolTip": "DataProtocols\\FaceRecognitionMessages\\FaceRecognitionResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:45:13.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdatePersonDataRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\FaceRecognitionMessages\\UpdatePersonDataRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:00:23.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ForgotPasswordCodeRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ForgotPasswordMessages\\ForgotPasswordCodeRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\ForgotPasswordMessages\\ForgotPasswordCodeRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ForgotPasswordMessages\\ForgotPasswordCodeRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\ForgotPasswordMessages\\ForgotPasswordCodeRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:03:52.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmailVerificationCodeVerificationResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationResponseDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationResponseDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationResponseDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:34:16.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmailVerificationCodeRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:33:36.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmailVerificationCodeVerificationRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\EmailVereficationMessages\\EmailVerificationCodeVerificationRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:33:58.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProfilePictureDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\Models\\ProfilePictureDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\GalleryMessages\\Models\\ProfilePictureDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\Models\\ProfilePictureDTO.cs",
+              "RelativeToolTip": "DataProtocols\\GalleryMessages\\Models\\ProfilePictureDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:13:29.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FaceRecordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\Models\\FaceRecordDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\GalleryMessages\\Models\\FaceRecordDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\GalleryMessages\\Models\\FaceRecordDTO.cs",
+              "RelativeToolTip": "DataProtocols\\GalleryMessages\\Models\\FaceRecordDTO.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:07:30.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RSAPublicKeyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\NetworkConnection\\RSAPublicKeyDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\NetworkConnection\\RSAPublicKeyDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\NetworkConnection\\RSAPublicKeyDTO.cs",
+              "RelativeToolTip": "DataProtocols\\NetworkConnection\\RSAPublicKeyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:25:03.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\Models\\UserDataDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\Models\\UserDataDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\Models\\UserDataDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\Models\\UserDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:05:42.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LogInDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\LogInMessages\\LogInDataDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\LogInMessages\\LogInDataDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\LogInMessages\\LogInDataDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\LogInMessages\\LogInDataDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:45:59.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SignUpDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\SignUpMessages\\SignUpDataDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\SignUpMessages\\SignUpDataDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\SignUpMessages\\SignUpDataDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\SignUpMessages\\SignUpDataDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:46:13.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SignUpAnswerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\SignUpMessages\\SignUpAnswerDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\SignUpMessages\\SignUpAnswerDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\SignUpMessages\\SignUpAnswerDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\SignUpMessages\\SignUpAnswerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:14:38.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LogInAnswerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\LogInMessages\\LogInAnswerDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\LogInMessages\\LogInAnswerDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\LogInMessages\\LogInAnswerDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\LogInMessages\\LogInAnswerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:58:58.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ValidationResultDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ErrorMessages\\ValidationResultDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\ErrorMessages\\ValidationResultDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ErrorMessages\\ValidationResultDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\ErrorMessages\\ValidationResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:49:35.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ResetPasswordResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordResponseDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordResponseDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordResponseDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:04:35.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ResetPasswordRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordRequestDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordRequestDTO.cs",
+              "RelativeToolTip": "DataProtocols\\Authentication\\ForgotPasswordMessages\\ResetPasswordRequestDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:04:13.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AESKeyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\NetworkConnection\\AESKeyDTO.cs",
+              "RelativeDocumentMoniker": "DataProtocols\\NetworkConnection\\AESKeyDTO.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\DataProtocols\\DataProtocols\\NetworkConnection\\AESKeyDTO.cs",
+              "RelativeToolTip": "DataProtocols\\NetworkConnection\\AESKeyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:25:20.45Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

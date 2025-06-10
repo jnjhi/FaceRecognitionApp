@@ -1,0 +1,938 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\communicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:communicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\attendanceservice\\attendancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\attendanceservice\\attendancehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\models\\basicfacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\models\\basicfacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\messagepipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:messagepipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\messagehandlerwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\messagehandlerwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\connectiontotables\\attendancestoragesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\connectiontotables\\attendancestoragesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\retrievingpersondataservice\\retrievingpersondatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\retrievingpersondataservice\\retrievingpersondatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\connectiontotables\\gallerystoragesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\connectiontotables\\gallerystoragesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\galleryservice\\gallerymessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\galleryservice\\gallerymessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\models\\advancedfacedatawithprofilepicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\models\\advancedfacedatawithprofilepicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\connectiontotables\\iconnectiontouserdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\connectiontotables\\iconnectiontouserdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\facerecognitionservice\\facerecognitionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\facerecognitionservice\\facerecognitionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\facedatabasemenagmentservice\\facerecordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\facedatabasemenagmentservice\\facerecordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\connectiontotables\\connectiontofacetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\connectiontotables\\connectiontofacetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\models\\advancedfacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\models\\advancedfacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\models\\userrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\models\\userrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\models\\recognizedpersoningallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\models\\recognizedpersoningallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\itypedmessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\itypedmessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\utils\\imageconversionutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:utils\\imageconversionutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\facerecognitionservice\\facematchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\facerecognitionservice\\facematchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.ProfilePictures.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\models\\profilepicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\models\\profilepicture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\emailverificationservice\\emailverificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\emailverificationservice\\emailverificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\forgotpasswordservice\\forgotpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\forgotpasswordservice\\forgotpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\loginservice\\signuphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\loginservice\\signuphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\loginservice\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\loginservice\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\network\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:network\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\connectiontotables\\connectiontousertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\connectiontotables\\connectiontousertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\network\\chatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:network\\chatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\network\\securenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:network\\securenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\network\\isecurenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:network\\isecurenetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\network\\inetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:network\\inetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\network\\ichatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:network\\ichatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\network\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:network\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\Backup\\FaceRecognitionServer\\MessagePipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\facerecognitionservice\\faceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\facerecognitionservice\\faceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|c:\\users\\denis\\source\\repos\\facerecognition\\facerecognitionserver\\services\\databases\\connectiontotables\\ifacedatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F37C1-BE18-4D33-AFE2-0AD555A28805}|FaceRecognitionServer.csproj|solutionrelative:services\\databases\\connectiontotables\\ifacedatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.Faces.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\FaceDataBase\\FaceDataBaseMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataBases\\FaceDataBase\\FaceDataBaseMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACEDATABASE_FACESDATABASE.MDF/True/SqlTable/dbo.Faces.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_LOGINSERVICE_USERS.MDF/True/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FaceRecognitionService\\FaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FaceRecognitionService\\FaceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\FaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FaceDataBase\\FaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\IFaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FaceDataBase\\IFaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\FaceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FaceDataBase\\FaceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\UserDataBase\\ConnectionToUserDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\UserDataBase\\ConnectionToUserDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\MigrateAllUsersAndFaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MigrateAllUsersAndFaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToFaceTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataBases\\ConnectionToFaceTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataBases\\ConnectionToUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\UserDataBase\\IConnectionToUserDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataBases\\UserDataBase\\IConnectionToUserDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\UserDataBase\\ConnectionToUserDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataBases\\UserDataBase\\ConnectionToUserDataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\FaceDataBase\\FaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataBases\\FaceDataBase\\FaceDataBaseConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\FaceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\DataBases\\Models\\FaceRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendanceHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\AttendanceService\\AttendanceHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AttendanceService\\AttendanceHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\AttendanceService\\AttendanceHandler.cs",
+              "RelativeToolTip": "Services\\AttendanceService\\AttendanceHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:51:10.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdvancedFaceDataWithProfilePicture.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\AdvancedFaceDataWithProfilePicture.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\Models\\AdvancedFaceDataWithProfilePicture.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\AdvancedFaceDataWithProfilePicture.cs",
+              "RelativeToolTip": "Services\\DataBases\\Models\\AdvancedFaceDataWithProfilePicture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:12:02.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GalleryMessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\GalleryService\\GalleryMessageHandler.cs",
+              "RelativeDocumentMoniker": "Services\\GalleryService\\GalleryMessageHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\GalleryService\\GalleryMessageHandler.cs",
+              "RelativeToolTip": "Services\\GalleryService\\GalleryMessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:53:14.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasicFaceData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\BasicFaceData.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\Models\\BasicFaceData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\BasicFaceData.cs",
+              "RelativeToolTip": "Services\\DataBases\\Models\\BasicFaceData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:18:27.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommunicationManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\CommunicationManager.cs",
+              "RelativeDocumentMoniker": "CommunicationManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\CommunicationManager.cs",
+              "RelativeToolTip": "CommunicationManager.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAlwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:16:42.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttendanceStorageSystem.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\AttendanceStorageSystem.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToTables\\AttendanceStorageSystem.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\AttendanceStorageSystem.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToTables\\AttendanceStorageSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:53:58.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageHandlerWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\MessageHandlerWrapper.cs",
+              "RelativeDocumentMoniker": "Services\\MessageHandlerWrapper.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\MessageHandlerWrapper.cs",
+              "RelativeToolTip": "Services\\MessageHandlerWrapper.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAlwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:58:05.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessagePipeline.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\MessagePipeline.cs",
+              "RelativeDocumentMoniker": "MessagePipeline.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\MessagePipeline.cs",
+              "RelativeToolTip": "MessagePipeline.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAlwCAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:10:25.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GalleryStorageSystem.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\GalleryStorageSystem.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToTables\\GalleryStorageSystem.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\GalleryStorageSystem.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToTables\\GalleryStorageSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:51:17.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RetrievingPersonDataHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\RetrievingPersonDataService\\RetrievingPersonDataHandler.cs",
+              "RelativeDocumentMoniker": "Services\\RetrievingPersonDataService\\RetrievingPersonDataHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\RetrievingPersonDataService\\RetrievingPersonDataHandler.cs",
+              "RelativeToolTip": "Services\\RetrievingPersonDataService\\RetrievingPersonDataHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T18:05:28.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IConnectionToUserDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\IConnectionToUserDataBase.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToTables\\IConnectionToUserDataBase.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\IConnectionToUserDataBase.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToTables\\IConnectionToUserDataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:43:30.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:15:15.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FaceRecordHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBaseMenagmentService\\FaceRecordHandler.cs",
+              "RelativeDocumentMoniker": "Services\\FaceDataBaseMenagmentService\\FaceRecordHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBaseMenagmentService\\FaceRecordHandler.cs",
+              "RelativeToolTip": "Services\\FaceDataBaseMenagmentService\\FaceRecordHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:33:54.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FaceRecognitionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceRecognitionHandler.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceRecognitionHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceRecognitionHandler.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceRecognitionHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T18:15:56.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConnectionToFaceTable.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\ConnectionToFaceTable.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToTables\\ConnectionToFaceTable.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\ConnectionToFaceTable.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToTables\\ConnectionToFaceTable.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAA8wPUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:19:13.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdvancedFaceData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\AdvancedFaceData.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\Models\\AdvancedFaceData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\AdvancedFaceData.cs",
+              "RelativeToolTip": "Services\\DataBases\\Models\\AdvancedFaceData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:17:59.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRecord.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\UserRecord.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\Models\\UserRecord.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\UserRecord.cs",
+              "RelativeToolTip": "Services\\DataBases\\Models\\UserRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:44:58.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RecognizedPersonInGallery.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\RecognizedPersonInGallery.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\Models\\RecognizedPersonInGallery.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\RecognizedPersonInGallery.cs",
+              "RelativeToolTip": "Services\\DataBases\\Models\\RecognizedPersonInGallery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:14:04.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITypedMessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\ITypedMessageHandler.cs",
+              "RelativeDocumentMoniker": "Services\\ITypedMessageHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\ITypedMessageHandler.cs",
+              "RelativeToolTip": "Services\\ITypedMessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:53:32.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\IMessageHandler.cs",
+              "RelativeDocumentMoniker": "Services\\IMessageHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\IMessageHandler.cs",
+              "RelativeToolTip": "Services\\IMessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:09:03.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ImageConversionUtils.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Utils\\ImageConversionUtils.cs",
+              "RelativeDocumentMoniker": "Utils\\ImageConversionUtils.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Utils\\ImageConversionUtils.cs",
+              "RelativeToolTip": "Utils\\ImageConversionUtils.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T22:15:12.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FaceMatchResult.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceMatchResult.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceMatchResult.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceMatchResult.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceMatchResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:43:21.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "dbo.ProfilePictures.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.ProfilePictures.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.ProfilePictures.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-02T11:34:46.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProfilePicture.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\ProfilePicture.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\Models\\ProfilePicture.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\ProfilePicture.cs",
+              "RelativeToolTip": "Services\\DataBases\\Models\\ProfilePicture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:17:39.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Logger.cs",
+              "RelativeDocumentMoniker": "Logger.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Logger.cs",
+              "RelativeToolTip": "Logger.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAWwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:13:17.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmailVerificationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\EmailVerificationService\\EmailVerificationHandler.cs",
+              "RelativeDocumentMoniker": "Services\\EmailVerificationService\\EmailVerificationHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\EmailVerificationService\\EmailVerificationHandler.cs",
+              "RelativeToolTip": "Services\\EmailVerificationService\\EmailVerificationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T20:17:02.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ForgotPasswordHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\ForgotPasswordService\\ForgotPasswordHandler.cs",
+              "RelativeDocumentMoniker": "Services\\ForgotPasswordService\\ForgotPasswordHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\ForgotPasswordService\\ForgotPasswordHandler.cs",
+              "RelativeToolTip": "Services\\ForgotPasswordService\\ForgotPasswordHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T12:54:08.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SignUpHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\LogInService\\SignUpHandler.cs",
+              "RelativeDocumentMoniker": "Services\\LogInService\\SignUpHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\LogInService\\SignUpHandler.cs",
+              "RelativeToolTip": "Services\\LogInService\\SignUpHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:22:12.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LogInHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\LogInService\\LogInHandler.cs",
+              "RelativeDocumentMoniker": "Services\\LogInService\\LogInHandler.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\LogInService\\LogInHandler.cs",
+              "RelativeToolTip": "Services\\LogInService\\LogInHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:17:05.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\EmailSender.cs",
+              "RelativeDocumentMoniker": "EmailSender.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\EmailSender.cs",
+              "RelativeToolTip": "EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:01:26.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Network\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\NetworkManager.cs",
+              "RelativeToolTip": "Network\\NetworkManager.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:26:35.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ConnectionToUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\ConnectionToUserTable.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToTables\\ConnectionToUserTable.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\ConnectionToUserTable.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToTables\\ConnectionToUserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:44:18.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChatClient.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\ChatClient.cs",
+              "RelativeDocumentMoniker": "Network\\ChatClient.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\ChatClient.cs",
+              "RelativeToolTip": "Network\\ChatClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:25:47.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SecureNetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\SecureNetworkManager.cs",
+              "RelativeDocumentMoniker": "Network\\SecureNetworkManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\SecureNetworkManager.cs",
+              "RelativeToolTip": "Network\\SecureNetworkManager.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwAYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:26:39.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ISecureNetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\ISecureNetworkManager.cs",
+              "RelativeDocumentMoniker": "Network\\ISecureNetworkManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\ISecureNetworkManager.cs",
+              "RelativeToolTip": "Network\\ISecureNetworkManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:26:12.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "INetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\INetworkManager.cs",
+              "RelativeDocumentMoniker": "Network\\INetworkManager.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\INetworkManager.cs",
+              "RelativeToolTip": "Network\\INetworkManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:26:04.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IChatClient.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\IChatClient.cs",
+              "RelativeDocumentMoniker": "Network\\IChatClient.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\IChatClient.cs",
+              "RelativeToolTip": "Network\\IChatClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:26:02.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ClientData.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\ClientData.cs",
+              "RelativeDocumentMoniker": "Network\\ClientData.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Network\\ClientData.cs",
+              "RelativeToolTip": "Network\\ClientData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:25:59.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MessagePipeline.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\Backup\\FaceRecognitionServer\\MessagePipeline.cs",
+              "RelativeDocumentMoniker": "..\\Backup\\FaceRecognitionServer\\MessagePipeline.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\Backup\\FaceRecognitionServer\\MessagePipeline.cs",
+              "RelativeToolTip": "..\\Backup\\FaceRecognitionServer\\MessagePipeline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T19:51:27.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FaceProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceProcessor.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAlwDIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T16:52:21.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "FaceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\FaceRecord.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\Models\\FaceRecord.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\Models\\FaceRecord.cs",
+              "RelativeToolTip": "Services\\DataBases\\Models\\FaceRecord.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:00:59.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IFaceDataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\IFaceDataBaseConnection.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToTables\\IFaceDataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToTables\\IFaceDataBaseConnection.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToTables\\IFaceDataBaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:18:29.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "dbo.Faces.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.Faces.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.Faces.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-19T17:34:14.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "dbo.users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACERECOGNITIONDB.MDF/True/SqlTable/dbo.users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-19T17:34:05.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ConnectionToUserDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "RelativeToolTip": "Services\\DataBases\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T10:45:47.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IConnectionToUserDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\UserDataBase\\IConnectionToUserDataBase.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\UserDataBase\\IConnectionToUserDataBase.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\UserDataBase\\IConnectionToUserDataBase.cs",
+              "RelativeToolTip": "Services\\DataBases\\UserDataBase\\IConnectionToUserDataBase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T10:45:49.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ConnectionToUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToUserTable.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToUserTable.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToUserTable.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToUserTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:24:09.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ConnectionToFaceTable.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToFaceTable.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\ConnectionToFaceTable.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\ConnectionToFaceTable.cs",
+              "RelativeToolTip": "Services\\DataBases\\ConnectionToFaceTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:24:29.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MigrateAllUsersAndFaces.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\MigrateAllUsersAndFaces.cs",
+              "RelativeDocumentMoniker": "MigrateAllUsersAndFaces.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\MigrateAllUsersAndFaces.cs",
+              "RelativeToolTip": "MigrateAllUsersAndFaces.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:34:24.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "FaceDataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "RelativeToolTip": "Services\\DataBases\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:40:05.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FaceDataBaseMigration.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\FaceDataBase\\FaceDataBaseMigration.cs",
+              "RelativeDocumentMoniker": "Services\\DataBases\\FaceDataBase\\FaceDataBaseMigration.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\DataBases\\FaceDataBase\\FaceDataBaseMigration.cs",
+              "RelativeToolTip": "Services\\DataBases\\FaceDataBase\\FaceDataBaseMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:53:48.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "dbo.Faces.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACEDATABASE_FACESDATABASE.MDF/True/SqlTable/dbo.Faces.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_DATABASES_FACEDATABASE_FACESDATABASE.MDF/True/SqlTable/dbo.Faces.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-16T12:02:53.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FaceDataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceDataBaseConnection.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceDataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceDataBaseConnection.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceDataBaseConnection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:57:53.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FaceDataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "RelativeDocumentMoniker": "Services\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "RelativeToolTip": "Services\\FaceDataBase\\FaceDataBaseConnection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T10:11:52.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IFaceDataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\IFaceDataBaseConnection.cs",
+              "RelativeDocumentMoniker": "Services\\FaceDataBase\\IFaceDataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\IFaceDataBaseConnection.cs",
+              "RelativeToolTip": "Services\\FaceDataBase\\IFaceDataBaseConnection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T10:09:46.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FaceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\FaceRecord.cs",
+              "RelativeDocumentMoniker": "Services\\FaceDataBase\\FaceRecord.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceDataBase\\FaceRecord.cs",
+              "RelativeToolTip": "Services\\FaceDataBase\\FaceRecord.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T10:10:13.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ConnectionToUserDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "RelativeDocumentMoniker": "Services\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "RelativeToolTip": "Services\\UserDataBase\\ConnectionToUserDataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:17:00.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FaceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceRecord.cs",
+              "RelativeDocumentMoniker": "Services\\FaceRecognitionService\\FaceRecord.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\FaceRecognition\\FaceRecognitionServer\\Services\\FaceRecognitionService\\FaceRecord.cs",
+              "RelativeToolTip": "Services\\FaceRecognitionService\\FaceRecord.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:45:01.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "dbo.users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_LOGINSERVICE_USERS.MDF/True/SqlTable/dbo.users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DENIS_SOURCE_REPOS_FACERECOGNITION_FACERECOGNITIONSERVER_SERVICES_LOGINSERVICE_USERS.MDF/True/SqlTable/dbo.users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-04T14:22:44.976Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

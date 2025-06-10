@@ -1,0 +1,35 @@
+[START] Log initialized at 2025-06-01 22:18:31
+[ERROR] 2025-06-01 22:18:31
+Context: Was unable to deserialize the message
+Exception: Exception - Unknown or unregistered data type: GetGalleryResponse
+Stack Trace:    at DataProtocols.ConvertUtils.Deserialize[T](String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 47
+   at FaceRecognitionClient.NetworkFacade.<>c__DisplayClass2_0`2.<SendRequestAsync>b__0(String incomingMessage) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 48
+
+[ERROR] 2025-06-03 00:37:17
+Context: Error saving bitmap
+Exception: ExternalException - A generic error occurred in GDI+.
+Stack Trace:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at FaceRecognitionClient.ClientLogger.ClientLogger.SaveBitmapToPath(Bitmap bitmap, String filePath, ImageFormat format) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\Logger\ClientLogger.cs:line 90
+
+[ERROR] 2025-06-03 00:37:17
+Context: Error saving bitmap
+Exception: ExternalException - A generic error occurred in GDI+.
+Stack Trace:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at FaceRecognitionClient.ClientLogger.ClientLogger.SaveBitmapToPath(Bitmap bitmap, String filePath, ImageFormat format) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\Logger\ClientLogger.cs:line 90
+
+[ERROR] 2025-06-07 22:13:11
+Context: Exception opening person profile window for ID 41.
+Exception: InvalidOperationException - No transition defined for trigger 'ShowPersonDetails' from state 'AttendanceWindow'.
+Stack Trace:    at FaceRecognitionClient.StateMachine.StateMachine`2.Fire(TTrigger trigger) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\StateMachine\StateMachine.cs:line 101
+   at LogInClient.WindowService.<SubscribeToDetailNotifiers>b__31_0(AdvancedPersonDataWithImage record) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\WindowService.cs:line 148
+   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OnOpenPersonProfile(AdvancedPersonDataWithImage advancedPersonData) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 117
+   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OpenProfileAsync() in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 109
+
+[ERROR] 2025-06-07 22:13:18
+Context: Exception opening person profile window for ID 41.
+Exception: InvalidOperationException - No transition defined for trigger 'ShowPersonDetails' from state 'AttendanceWindow'.
+Stack Trace:    at FaceRecognitionClient.StateMachine.StateMachine`2.Fire(TTrigger trigger) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\StateMachine\StateMachine.cs:line 101
+   at LogInClient.WindowService.<SubscribeToDetailNotifiers>b__31_0(AdvancedPersonDataWithImage record) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\WindowService.cs:line 148
+   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OnOpenPersonProfile(AdvancedPersonDataWithImage advancedPersonData) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 117
+   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OpenProfileAsync() in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 109
+

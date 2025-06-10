@@ -1,0 +1,77 @@
+﻿<Window x:Class="FaceRecognitionClient.Views.CameraCaptureWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Camera Capture"
+        Width="1200" Height="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#E6E6FA">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+
+        <Style x:Key="CircleIconButton" TargetType="Button">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Background" Value="#6A5ACD" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="25"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Back Button -->
+        <Button Grid.Row="0" Content="←" Width="50" Height="40"
+                FontSize="24" Background="#6A5ACD" Foreground="White"
+                BorderThickness="0" Style="{StaticResource ModernButton}"
+                Command="{Binding GoBackCommand}" HorizontalAlignment="Left" Margin="10"/>
+
+        <!-- Camera Feed -->
+        <Border Grid.Row="1" Margin="0,20" BorderThickness="1" BorderBrush="#CCC" CornerRadius="10">
+            <Image Source="{Binding CameraFrame}" Width="800" Height="600" Stretch="Uniform" Margin="10"/>
+        </Border>
+
+        <!-- Camera Controls -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Button Style="{StaticResource CircleIconButton}" Command="{Binding StartCameraCommand}">
+                <TextBlock Text="▶️"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}" Command="{Binding TakePhotoCommand}">
+                <TextBlock Text="📸"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}" Command="{Binding StopCameraCommand}">
+                <TextBlock Text="⏹️"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}" Command="{Binding AcceptPhotoCommand}"
+                    Visibility="{Binding IsPhotoTaken, Converter={StaticResource BoolToVisibilityConverter}}">
+                <TextBlock Text="✅"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}" Command="{Binding RejectPhotoCommand}"
+                    Visibility="{Binding IsPhotoTaken, Converter={StaticResource BoolToVisibilityConverter}}">
+                <TextBlock Text="🔁"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

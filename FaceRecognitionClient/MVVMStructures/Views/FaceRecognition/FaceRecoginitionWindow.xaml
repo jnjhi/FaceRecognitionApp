@@ -1,0 +1,114 @@
+﻿<Window x:Class="FaceRecognitionClient.Views.FaceRecoginitionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:FaceRecognitionClient.Views"
+        Title="Face Recognition" Height="800" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        Background="#E6E6FA">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+        <Style x:Key="CircleIconButton" TargetType="Button">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Background" Value="#6A5ACD" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="25"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="400" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Left side: Image -->
+        <Border Grid.Column="0" Grid.Row="0" Margin="10" CornerRadius="10" BorderBrush="#CCC" BorderThickness="1">
+            <Image Source="{Binding ImageSource}"
+                   Height="600"
+                   Stretch="Uniform"
+                   Margin="10"/>
+        </Border>
+
+        <!-- Buttons underneath the image -->
+        <StackPanel Grid.Column="0" Grid.Row="1"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="10">
+            <Button Style="{StaticResource CircleIconButton}"
+                    Command="{Binding UploadImageCommand}">
+                <TextBlock Text="📁"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}"
+                    Command="{Binding OpenCameraViewCommand}">
+                <TextBlock Text="📷"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}"
+                    Command="{Binding SendImageCommand}">
+                <TextBlock Text="📤"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}"
+                    Command="{Binding OpenGalleryCommand}">
+                <TextBlock Text="🖼️"/>
+            </Button>
+            <Button Style="{StaticResource CircleIconButton}"
+                    Command="{Binding OpenAttendanceCommand}">
+                <TextBlock Text="📅"/>
+            </Button>
+        </StackPanel>
+
+        <!-- Right side: Recognized persons card panel -->
+        <Border Grid.Column="1" Grid.RowSpan="2"
+                Background="White"
+                Padding="10"
+                CornerRadius="10">
+            <StackPanel>
+                <TextBlock Text="Recognized Persons"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           Margin="0,0,0,10"/>
+                <ItemsControl ItemsSource="{Binding RecognizedPersons}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Expander Margin="0,0,0,10"
+                                     IsExpanded="False"
+                                     Header="{Binding FaceRecord.FullName}">
+                                <Expander.InputBindings>
+                                    <MouseBinding MouseAction="LeftDoubleClick"
+                                                  Command="{Binding OpenDetailsCommand}" />
+                                </Expander.InputBindings>
+
+                                <StackPanel Margin="20,0,0,0">
+                                    <TextBlock Text="{Binding FaceRecord.FirstName, StringFormat='First Name: {0}'}"/>
+                                    <TextBlock Text="{Binding FaceRecord.LastName, StringFormat='Last Name: {0}'}"/>
+                                    <TextBlock Text="{Binding FaceRecord.GovernmentID, StringFormat='Government ID: {0}'}"/>
+                                </StackPanel>
+                            </Expander>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
