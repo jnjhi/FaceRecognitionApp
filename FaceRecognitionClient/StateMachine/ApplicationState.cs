@@ -14,6 +14,7 @@
         EmailVerificationWindow,
         GalleryWindow,
         ForgotPasswordWindow,
-        AttendanceWindow
+        AttendanceWindow,
+        NavigationWindow
     }
 }
