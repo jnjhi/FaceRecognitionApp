@@ -7,6 +7,7 @@ using DataProtocols.Authentication.SignUpMessages;
 using DataProtocols.FaceRecognitionMessages;
 using DataProtocols.GalleryMessages;
 using DataProtocols.RetrievingPersonDataMessages;
+using FaceRecognitionServer.Network;
 using FaceRecognitionServer.Services.AttendanceService;
 using FaceRecognitionServer.Services.DataBases.ConnectionToTables;
 using FaceRecognitionServer.Services.FaceRecognitionService;
