@@ -1,6 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Net.Sockets;
 using System.Net;
+using System.Linq;
 
 // Basic TCP server that listens for client connections and routes incoming messages.
 // Does not handle encryption — this is the raw unencrypted communication layer.
@@ -113,6 +114,15 @@ internal class NetworkManager : INetworkManager
             {
                 client.SendMessage(message);
             }
+        }
+    }
+
+    public void DisconnectClient(string clientIp)
+    {
+        var client = AllClients.FirstOrDefault(c => c.GetClientIP == clientIp);
+        if (client != null)
+        {
+            client.Disconnect();
         }
     }
 

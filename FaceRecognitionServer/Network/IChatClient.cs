@@ -13,4 +13,7 @@ internal interface IChatClient
 
     // Sends a message string to the connected client
     void SendMessage(string message);
+
+    // Closes the connection and triggers OnRemove
+    void Disconnect();
 }

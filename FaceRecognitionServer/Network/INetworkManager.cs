@@ -20,6 +20,9 @@ internal interface INetworkManager
     // Sends a message to a specific client by IP
     void SendMessage(string message, string clientIp);
 
+    // Disconnects a client with the specified IP
+    void DisconnectClient(string clientIp);
+
     // Clears the current client list (e.g., on shutdown or reset)
     void RemoveAllTheClients();
 
