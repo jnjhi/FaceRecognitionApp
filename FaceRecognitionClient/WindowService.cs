@@ -6,13 +6,16 @@ using FaceRecognitionClient.MVVMStructures.ViewModels.FaceRecognition;
 using FaceRecognitionClient.MVVMStructures.ViewModels.Gallery;
 using FaceRecognitionClient.MVVMStructures.ViewModels.NavigationWindow;
 using FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile;
+using FaceRecognitionClient.MVVMStructures.ViewModels.Disconnected;
 using FaceRecognitionClient.MVVMStructures.Views.Attendance;
 using FaceRecognitionClient.MVVMStructures.Views.PersonProfile;
+using FaceRecognitionClient.MVVMStructures.Views.Disconnected;
 using FaceRecognitionClient.Services.GalleryService;
 using FaceRecognitionClient.StateMachine;
 using FaceRecognitionClient.Views.Authentication;
 using FaceRecognitionClient.Views;
 using System.Windows;
+using System;
 
 namespace LogInClient
 {
@@ -36,6 +39,7 @@ namespace LogInClient
         private ForgotPasswordViewModel m_ForgotPasswordViewModel;
         private GeneralAttendanceViewModel m_GeneralAttendanceViewModel;
         private NavigationWindowViewModel m_NavigationWindowViewModel;
+        private DisconnectedViewModel m_DisconnectedViewModel;
 
         // Views (Windows)
         private LogInWindow m_LogInWindow;
@@ -48,6 +52,7 @@ namespace LogInClient
         private ForgotPasswordWindow m_ForgotPasswordWindow;
         private GeneralAttendanceView m_GeneralAttendanceWindow;
         private NavigationWindow m_NavigationWindow;
+        private DisconnectedWindow m_DisconnectedWindow;
 
         // Navigation state system
         private IStateMachine<ApplicationState, ApplicationTrigger> m_WindowNavigationSystem;
@@ -92,6 +97,7 @@ namespace LogInClient
             m_ForgotPasswordViewModel = new ForgotPasswordViewModel(m_NetworkFacade);
             m_GeneralAttendanceViewModel = new GeneralAttendanceViewModel(m_NetworkFacade, m_Mapper);
             m_NavigationWindowViewModel = new NavigationWindowViewModel();
+            m_DisconnectedViewModel = new DisconnectedViewModel();
 
             // Register all view models as state notifiers
             m_StateNotifiers.AddRange(new IStateNotifier[]
@@ -104,7 +110,8 @@ namespace LogInClient
                 m_EmailVerificationViewModel,
                 m_GalleryViewModel,
                 m_ForgotPasswordViewModel,
-                m_NavigationWindowViewModel
+                m_NavigationWindowViewModel,
+                m_DisconnectedViewModel
             });
              
             m_DetailNotifiers.AddRange(new IDetailNotifier<AdvancedPersonDataWithImage>[]
@@ -128,9 +135,11 @@ namespace LogInClient
             m_ForgotPasswordWindow = new ForgotPasswordWindow { DataContext = m_ForgotPasswordViewModel };
             m_GeneralAttendanceWindow = new GeneralAttendanceView { DataContext = m_GeneralAttendanceViewModel };
             m_NavigationWindow = new NavigationWindow { DataContext = m_NavigationWindowViewModel };
-            
+            m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
+
             // Build and configure the state machine
             m_WindowNavigationSystem = BuildStateMachine();
+            SubscribeToNetworkEvents();
         }
 
         /// <summary>
@@ -152,6 +161,19 @@ namespace LogInClient
                 {
                     m_PendingDetailsRecord = record;
                     m_WindowNavigationSystem.Fire(ApplicationTrigger.ShowPersonDetails);
+                };
+            }
+        }
+
+        private void SubscribeToNetworkEvents()
+        {
+            if (m_NetworkFacade is NetworkFacade facade)
+            {
+                facade.OnServerDisconnected += reason =>
+                {
+                    ClientLogger.ClientLogger.LogInfo($"Server disconnected: {reason}");
+                    m_DisconnectedViewModel.ErrorMessage = reason;
+                    m_WindowNavigationSystem.Fire(ApplicationTrigger.UserDisconnected);
                 };
             }
         }
@@ -189,6 +211,16 @@ namespace LogInClient
                 UpdateUI(m_CameraCaptureViewModel.StopCamera);
             });
 
+            foreach (ApplicationState state in Enum.GetValues<ApplicationState>())
+            {
+                if (state != ApplicationState.DisconnectedWindow)
+                {
+                    stateMachine.AddTransition(state, ApplicationTrigger.UserDisconnected, ApplicationState.DisconnectedWindow);
+                }
+            }
+
+            stateMachine.AddTransition(ApplicationState.DisconnectedWindow, ApplicationTrigger.LogInRequested, ApplicationState.LogInWindow);
+
             // Internal transitions for face detail viewing
             stateMachine.AddInternalTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.ShowPersonDetails, () => ShowPersonProfileWindow(m_PendingDetailsRecord));
             stateMachine.AddInternalTransition(ApplicationState.GalleryWindow, ApplicationTrigger.ShowPersonDetails, () => ShowPersonProfileWindow(m_PendingDetailsRecord));
@@ -204,6 +236,7 @@ namespace LogInClient
             stateMachine.AddStateEntryAction(ApplicationState.ForgotPasswordWindow, () => UpdateUI(() => m_ForgotPasswordWindow.Show()));
             stateMachine.AddStateEntryAction(ApplicationState.AttendanceWindow, () => UpdateUI(() => m_GeneralAttendanceWindow.Show()));
             stateMachine.AddStateEntryAction(ApplicationState.NavigationWindow, () => UpdateUI(() => m_NavigationWindow.Show()));
+            stateMachine.AddStateEntryAction(ApplicationState.DisconnectedWindow, () => UpdateUI(() => m_DisconnectedWindow.Show()));
 
             // Exit actions
             stateMachine.AddStateExitAction(ApplicationState.LogInWindow, () => UpdateUI(() => m_LogInWindow.Hide()));
@@ -216,6 +249,7 @@ namespace LogInClient
             stateMachine.AddStateExitAction(ApplicationState.ForgotPasswordWindow, () => UpdateUI(() => m_ForgotPasswordWindow.Hide()));
             stateMachine.AddStateExitAction(ApplicationState.AttendanceWindow, () => UpdateUI(() => m_GeneralAttendanceWindow.Hide()));
             stateMachine.AddStateExitAction(ApplicationState.NavigationWindow, () => UpdateUI(() => m_NavigationWindow.Hide()));
+            stateMachine.AddStateExitAction(ApplicationState.DisconnectedWindow, () => UpdateUI(() => m_DisconnectedWindow.Hide()));
 
             return stateMachine;
         }
