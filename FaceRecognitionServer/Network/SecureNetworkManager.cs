@@ -1,7 +1,10 @@
 ﻿using DataProtocols.NetworkConnection;
 using DataProtocols;
+using DataProtocols.DisconnectMessages;
 using Encryption;
 using Newtonsoft.Json;
+using System.Threading;
+using System.Collections.Generic;
 
 // Provides encrypted communication over the underlying NetworkManager using RSA and AES.
 // Handles secure key exchange, message encryption/decryption, and client session management.
@@ -19,16 +22,25 @@ public class SecureNetworkManager : ISecureNetworkManager
     // Holds per-client encryption data (RSA + AES)
     private Dictionary<string, ClientData> m_Clients;
 
+    private readonly Dictionary<string, DateTime> _lastActivity = new();
+    private readonly TimeSpan _inactivityThreshold = TimeSpan.FromMinutes(10);
+    private readonly TimeSpan _checkInterval = TimeSpan.FromMinutes(1);
+    private CancellationTokenSource _cts;
+
     // Initializes the network and subscribes to message receive event
     public void Connect()
     {
         m_NetworkManager = new NetworkManager();
         m_Clients = new Dictionary<string, ClientData>();
+        _cts = new CancellationTokenSource();
 
         // Intercept and decrypt all messages received from clients
         m_NetworkManager.OnMessageReceive += OnMessageReceiveFromClient;
+        m_NetworkManager.OnClientRemove += OnClientRemove;
 
         m_NetworkManager.Connect();
+
+        StartMonitorThread();
     }
 
     // Encrypts and sends a message to all clients using their individual AES keys
@@ -51,6 +63,7 @@ public class SecureNetworkManager : ISecureNetworkManager
     public void RemoveAllTheClients()
     {
         m_Clients.Clear();
+        _lastActivity.Clear();
         m_NetworkManager.RemoveAllTheClients();
     }
 
@@ -58,6 +71,7 @@ public class SecureNetworkManager : ISecureNetworkManager
     public void Disconnect()
     {
         m_NetworkManager.Disconnect();
+        _cts?.Cancel();
     }
 
     // Handles incoming messages — decrypts if client is known, or performs key exchange if not
@@ -68,6 +82,11 @@ public class SecureNetworkManager : ISecureNetworkManager
             // AES-decrypt the message and forward it
             var decryptedMessage = m_Clients[ip].AESEncryption.Decrypt(message);
             OnMessageReceive.Invoke(decryptedMessage, ip);
+
+            lock (_lastActivity)
+            {
+                _lastActivity[ip] = DateTime.Now;
+            }
         }
         else
         {
@@ -111,5 +130,64 @@ public class SecureNetworkManager : ISecureNetworkManager
 
         // Notify system of new secure client
         OnClientAdd?.Invoke(ip);
+
+        lock (_lastActivity)
+        {
+            _lastActivity[ip] = DateTime.Now;
+        }
+    }
+
+    private void OnClientRemove(string ip)
+    {
+        lock (_lastActivity)
+        {
+            _lastActivity.Remove(ip);
+        }
+        m_Clients.Remove(ip);
+    }
+
+    private void StartMonitorThread()
+    {
+        var thread = new Thread(MonitorClients) { IsBackground = true };
+        thread.Start();
+    }
+
+    private void MonitorClients()
+    {
+        while (!_cts.IsCancellationRequested)
+        {
+            try
+            {
+                Thread.Sleep(_checkInterval);
+                CheckInactiveClients();
+            }
+            catch (Exception ex)
+            {
+                Logger.LogException(ex, "Inactivity monitor failed");
+            }
+        }
+    }
+
+    private void CheckInactiveClients()
+    {
+        List<string> toDisconnect = new();
+        lock (_lastActivity)
+        {
+            foreach (var pair in _lastActivity)
+            {
+                if (DateTime.Now - pair.Value > _inactivityThreshold)
+                {
+                    toDisconnect.Add(pair.Key);
+                }
+            }
+        }
+
+        foreach (var ip in toDisconnect)
+        {
+            var dto = new DisconnectMessageDTO();
+            var payload = JsonConvert.SerializeObject(dto, Formatting.Indented);
+            SendMessage(payload, ip);
+            m_NetworkManager.DisconnectClient(ip);
+        }
     }
 }

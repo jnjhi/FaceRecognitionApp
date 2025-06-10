@@ -1,4 +1,5 @@
 ﻿using System.Net.Sockets;
+using FaceRecognitionServer;
 
 // Represents an individual TCP client connection on the server.
 // Implements the IChatClient interface for sending and receiving messages.
@@ -45,7 +46,7 @@ internal class ChatClient : IChatClient
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex.ToString());
+            Logger.LogException(ex, "Failed to send message to client");
         }
     }
 
@@ -79,7 +80,23 @@ internal class ChatClient : IChatClient
         }
         catch (Exception ex)
         {
-            // Handle socket error silently (e.g., disconnect)
+            Logger.LogException(ex, "Failed while receiving data");
+        }
+    }
+
+    public void Disconnect()
+    {
+        try
+        {
+            _client.Close();
+        }
+        catch (Exception ex)
+        {
+            Logger.LogException(ex, "Error during client disconnect");
+        }
+        finally
+        {
+            OnRemove?.Invoke(this, _clientIP);
         }
     }
 }
