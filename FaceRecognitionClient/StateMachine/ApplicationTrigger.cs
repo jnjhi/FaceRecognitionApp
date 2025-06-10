@@ -22,6 +22,7 @@
         GalleryRequested,
         ForgotPasswordRequested,
         PasswordResetSuccessful,
-        AttendanceRequested
+        AttendanceRequested,
+        UserDisconnected
     }
 }

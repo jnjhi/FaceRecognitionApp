@@ -1,4 +1,5 @@
 ﻿using DataProtocols;
+using DataProtocols.DisconnectMessages;
 using FaceRecognitionClient.Network;
 
 namespace FaceRecognitionClient
@@ -11,6 +12,8 @@ namespace FaceRecognitionClient
     {
         private ISecureNetworkManager m_SecureNetworkManager;
 
+        public event Action<string> OnServerDisconnected;
+
         /// <summary>
         /// Constructor initializes the secure network connection (based on TCP + encryption).
         /// </summary>
@@ -18,6 +21,23 @@ namespace FaceRecognitionClient
         {
             m_SecureNetworkManager = new SecureNetworkManager();
             m_SecureNetworkManager.Connect(); // Establish encrypted communication with the server
+            m_SecureNetworkManager.OnMessageReceive += HandleIncomingMessage;
+        }
+
+        private void HandleIncomingMessage(string message)
+        {
+            try
+            {
+                if (ConvertUtils.GetDataType(message) == DataType.DisconnectMessage)
+                {
+                    var dto = ConvertUtils.Deserialize<DisconnectMessageDTO>(message);
+                    OnServerDisconnected?.Invoke(dto.Reason);
+                }
+            }
+            catch (Exception ex)
+            {
+                ClientLogger.ClientLogger.LogException(ex, "Failed processing passive message");
+            }
         }
 
         /// <summary>
