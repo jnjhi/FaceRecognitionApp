@@ -5,6 +5,7 @@ using FaceRecognitionClient.InternalDataModels;
 using FaceRecognitionClient.MVVMStructures.Models.Attendance;
 using FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile;
 using FaceRecognitionClient.StateMachine;
+using FaceRecognitionClient.Utils;
 using System.CodeDom;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -41,6 +42,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
         public event Action<ApplicationTrigger> OnTriggerOccurred;
 
         public RelayCommand BackCommand { get; }
+        public RelayCommand ExportCommand { get; }
 
         public AttendanceRecord SelectedAttendanceRecord
         {
@@ -64,6 +66,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
             RefreshCommand = new AsyncRelayCommand(_ => LoadAsync());
             OpenProfileCommand = new AsyncRelayCommand(_ => OpenProfileAsync());
             BackCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.NavigationRequested));
+            ExportCommand = new RelayCommand(_ => ExportRecords());
         }
 
         public async Task LoadAsync()
@@ -117,6 +120,15 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
             catch (Exception ex)
             {
                 ClientLogger.ClientLogger.LogException(ex, $"Exception opening person profile window for ID {SelectedAttendanceRecord?.Id}.");
+            }
+        }
+
+        private void ExportRecords()
+        {
+            var directory = AttendanceExportUtils.PromptForDirectory();
+            if (!string.IsNullOrWhiteSpace(directory))
+            {
+                AttendanceExportUtils.Export(AttendanceRecords, directory);
             }
         }
 
