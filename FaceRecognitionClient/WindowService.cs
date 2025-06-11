@@ -75,7 +75,6 @@ namespace LogInClient
             m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
 
             SubscribeToAllCriticalEvents();
-
             m_LogInWindow.Show();
         }
 
@@ -174,6 +173,12 @@ namespace LogInClient
                     stateMachine.AddTransition(state, ApplicationTrigger.UserDisconnected, ApplicationState.DisconnectedWindow);
                 }
             }
+
+            stateMachine.AddTransition(
+                ApplicationState.NavigationWindow,
+                ApplicationTrigger.LogOutRequested,
+                ApplicationState.LogInWindow,
+                InitializeViewsAndViewModels);
 
             stateMachine.AddTransition(ApplicationState.DisconnectedWindow, ApplicationTrigger.LogInRequested, ApplicationState.LogInWindow);
 

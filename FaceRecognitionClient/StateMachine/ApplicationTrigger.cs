@@ -23,6 +23,10 @@
         ForgotPasswordRequested,
         PasswordResetSuccessful,
         AttendanceRequested,
-        UserDisconnected
+        UserDisconnected,
+        /// <summary>
+        /// User has requested to log out of the application.
+        /// </summary>
+        LogOutRequested
     }
 }
