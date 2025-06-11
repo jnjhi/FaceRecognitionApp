@@ -5,9 +5,11 @@ using FaceRecognitionClient.InternalDataModels;
 using FaceRecognitionClient.MVVMStructures.Models.Attendance;
 using FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile;
 using FaceRecognitionClient.StateMachine;
-using System.CodeDom;
+using FaceRecognitionClient.Services;
+using Microsoft.Win32;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
 using System.Windows.Data;
 
 namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
@@ -17,6 +19,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
         private readonly INetworkFacade m_Network;
         private readonly Mapper m_Mapper;
         private readonly GeneralAttendanceModel m_Model;
+        private readonly AttendanceExportService m_ExportService;
         private AttendanceRecord m_SelectedAttendanceRecord;
         private bool m_SortDescending = true;
 
@@ -24,6 +27,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
         public ICollectionView AttendanceView { get; }
         public AsyncRelayCommand RefreshCommand { get; }
         public AsyncRelayCommand OpenProfileCommand { get; }
+        public RelayCommand ExportCommand { get; }
 
         public bool SortDescending
         {
@@ -57,6 +61,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
             m_Network = network;
             m_Mapper = mapper;
             m_Model = new GeneralAttendanceModel(network, mapper);
+            m_ExportService = new AttendanceExportService();
 
             AttendanceView = CollectionViewSource.GetDefaultView(AttendanceRecords);
             AttendanceView.SortDescriptions.Add(new SortDescription(nameof(AttendanceRecord.AttendanceTime), ListSortDirection.Descending));
@@ -64,6 +69,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
             RefreshCommand = new AsyncRelayCommand(_ => LoadAsync());
             OpenProfileCommand = new AsyncRelayCommand(_ => OpenProfileAsync());
             BackCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.NavigationRequested));
+            ExportCommand = new RelayCommand(_ => ExportAttendance());
         }
 
         public async Task LoadAsync()
@@ -118,6 +124,21 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
             {
                 ClientLogger.ClientLogger.LogException(ex, $"Exception opening person profile window for ID {SelectedAttendanceRecord?.Id}.");
             }
+        }
+
+        private void ExportAttendance()
+        {
+            var dialog = new SaveFileDialog
+            {
+                Filter = "Text files (*.txt)|*.txt",
+                FileName = "attendance.txt"
+            };
+
+            if (dialog.ShowDialog() != true)
+                return;
+
+            var records = AttendanceView.Cast<AttendanceRecord>();
+            m_ExportService.Export(records, dialog.FileName);
         }
 
         private void OnOpenPersonProfile(AdvancedPersonDataWithImage advancedPersonData) => OnDetailRequested?.Invoke(advancedPersonData);

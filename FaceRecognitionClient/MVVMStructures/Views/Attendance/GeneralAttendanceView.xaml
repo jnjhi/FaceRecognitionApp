@@ -59,6 +59,19 @@
                               Width="120"
                               Height="32"
                               VerticalAlignment="Center"/>
+
+                <Button Content="Export"
+                        Command="{Binding ExportCommand}"
+                        Padding="16,6"
+                        Background="#6A5ACD"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="10,0,0,0"
+                        Width="100"
+                        Height="32"
+                        VerticalAlignment="Center"/>
             </StackPanel>
         </Grid>
 
