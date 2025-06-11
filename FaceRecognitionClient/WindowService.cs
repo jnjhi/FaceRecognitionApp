@@ -178,7 +178,7 @@ namespace LogInClient
                 }
             }
 
-            stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.LogOutRequested, ApplicationState.LogInWindow, InitializeViewsAndViewModels);
+            stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.LogOutRequested, ApplicationState.LogInWindow, () => ReInitialize());
 
             stateMachine.AddTransition(ApplicationState.DisconnectedWindow, ApplicationTrigger.LogInRequested, ApplicationState.LogInWindow);
 
