@@ -1,6 +1,5 @@
 using System.Linq;
 using Microsoft.Win32;
-using System.IO;
 using FaceRecognitionClient.Services.AttendanceExportService;
 ﻿using FaceRecognitionClient.Commands;
 using FaceRecognitionClient.InternalDataModels;
@@ -44,32 +43,20 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile
             }
         private async Task ExportAsync()
         {
-            var dialog = new OpenFileDialog
+            var dialog = new SaveFileDialog
             {
-                CheckFileExists = false,
-                CheckPathExists = true,
-                ValidateNames = false,
                 Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*",
-                FileName = "Select folder or file"
+                FileName = "attendance.txt",
+                DefaultExt = ".txt",
+                AddExtension = true,
             };
 
             if (dialog.ShowDialog() != true)
                 return;
 
-            var path = dialog.FileName;
-            if (Directory.Exists(path))
-            {
-                var fileName = $"attendance_{DateTime.Now:yyyyMMdd_HHmmss}.txt";
-                path = Path.Combine(path, fileName);
-            }
-            else if (string.IsNullOrEmpty(Path.GetExtension(path)))
-            {
-                path += ".txt";
-            }
-
             var exporter = new AttendanceExportService();
             var records = AttendanceRecords.Cast<AttendanceRecord>().ToList();
-            await exporter.ExportAsync(records, path);
+            await exporter.ExportAsync(records, dialog.FileName);
         }
 
     }
