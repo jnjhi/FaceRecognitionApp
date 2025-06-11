@@ -80,8 +80,8 @@ namespace LogInClient
             // Instantiate services and shared objects
             InitializeWindows();
 
-            m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
             m_DisconnectedViewModel = new DisconnectedViewModel();
+            m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
 
             m_StateNotifiers.AddRange(new IStateNotifier[]
             {
@@ -187,6 +187,12 @@ namespace LogInClient
                     stateMachine.AddTransition(state, ApplicationTrigger.UserDisconnected, ApplicationState.DisconnectedWindow);
                 }
             }
+
+            stateMachine.AddTransition(
+                ApplicationState.NavigationWindow,
+                ApplicationTrigger.LogOutRequested,
+                ApplicationState.LogInWindow,
+                InitializeViewsAndViewModels);
 
             stateMachine.AddTransition(ApplicationState.DisconnectedWindow, ApplicationTrigger.LogInRequested, ApplicationState.LogInWindow);
 
