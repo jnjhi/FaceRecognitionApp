@@ -98,6 +98,7 @@ namespace FaceRecognitionClient.StateMachine
             if (!_transitions.TryGetValue(_currentState, out var triggerMap) ||
                 !triggerMap.TryGetValue(trigger, out var newState))
             {
+                ClientLogger.ClientLogger.LogWarning($"No transition defined for trigger '{trigger}' from state '{_currentState}'.");
                 throw new InvalidOperationException($"No transition defined for trigger '{trigger}' from state '{_currentState}'.");
             }
 

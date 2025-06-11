@@ -14,7 +14,6 @@ using FaceRecognitionClient.StateMachine;
 using FaceRecognitionClient.Views.Authentication;
 using FaceRecognitionClient.Views;
 using System.Windows;
-using System;
 using FaceRecognitionClient.ClientLogger;
 
 namespace LogInClient
@@ -68,21 +67,20 @@ namespace LogInClient
         /// </summary>
         public WindowService()
         {
-            InitializeViewsAndViewModels();
+            m_WindowNavigationSystem = BuildStateMachine();
+
+            InitializeKeyComponents();
+
+            m_DisconnectedViewModel = new DisconnectedViewModel();
+            m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
+
+            SubscribeToAllCriticalEvents();
+
             m_LogInWindow.Show();
         }
 
-        /// <summary>
-        /// Responsible for creating all core components and wiring up communication between them.
-        /// </summary>
-        private void InitializeViewsAndViewModels()
+        private void SubscribeToAllCriticalEvents()
         {
-            // Instantiate services and shared objects
-            InitializeWindows();
-
-            m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
-            m_DisconnectedViewModel = new DisconnectedViewModel();
-
             m_StateNotifiers.AddRange(new IStateNotifier[]
             {
                 m_LogInViewModel,
@@ -96,7 +94,7 @@ namespace LogInClient
                 m_NavigationWindowViewModel,
                 m_DisconnectedViewModel
             });
-             
+
             m_DetailNotifiers.AddRange(new IDetailNotifier<AdvancedPersonDataWithImage>[]
             {
                 m_FaceRecognitionViewModel,
@@ -106,8 +104,6 @@ namespace LogInClient
 
             SubscribeToStateNotifiers();
             SubscribeToDetailNotifiers();
-
-            m_WindowNavigationSystem = BuildStateMachine();
             SubscribeToNetworkEvents();
         }
 
@@ -118,7 +114,7 @@ namespace LogInClient
         {
             foreach (var notifier in m_StateNotifiers)
             {
-                notifier.OnTriggerOccurred += trigger => m_WindowNavigationSystem.Fire(trigger);
+                notifier.OnTriggerOccurred += HandleTrigger;
             }
         }
 
@@ -126,11 +122,7 @@ namespace LogInClient
         {
             foreach (var notifier in m_DetailNotifiers)
             {
-                notifier.OnDetailRequested += record =>
-                {
-                    m_PendingDetailsRecord = record;
-                    m_WindowNavigationSystem.Fire(ApplicationTrigger.ShowPersonDetails);
-                };
+                notifier.OnDetailRequested += HandleDetailRequest;
             }
         }
 
@@ -138,12 +130,7 @@ namespace LogInClient
         {
             if (m_NetworkFacade is NetworkFacade facade)
             {
-                facade.OnServerDisconnected += reason =>
-                {
-                    ClientLogger.LogInfo($"Server disconnected: {reason}");
-                    m_DisconnectedViewModel.ErrorMessage = reason;
-                    m_WindowNavigationSystem.Fire(ApplicationTrigger.UserDisconnected);
-                };
+                facade.OnServerDisconnected += HandleServerDisconnect;
             }
         }
 
@@ -264,11 +251,15 @@ namespace LogInClient
 
         private void ReConnect()
         {
-            InitializeWindows();
+            UnsubscribeFromStateNotifiers();
+            UnsubscribeFromDetailNotifiers();
+            UnsubscribeFromNetworkEvents();
+            InitializeKeyComponents();
+            SubscribeToAllCriticalEvents();
             m_DisconnectedWindow.Show();
         }
 
-        private void InitializeWindows()
+        private void InitializeKeyComponents()
         {
             m_NetworkFacade = new NetworkFacade();
             m_NetworkFacade.Connect();
@@ -303,7 +294,48 @@ namespace LogInClient
             m_ForgotPasswordWindow = new ForgotPasswordWindow { DataContext = m_ForgotPasswordViewModel };
             m_GeneralAttendanceWindow = new GeneralAttendanceView { DataContext = m_GeneralAttendanceViewModel };
             m_NavigationWindow = new NavigationWindow { DataContext = m_NavigationWindowViewModel };
-            
+        }
+
+        private void HandleTrigger(ApplicationTrigger trigger)
+        {
+            m_WindowNavigationSystem.Fire(trigger);
+        }
+
+        private void UnsubscribeFromStateNotifiers()
+        {
+            foreach (var notifier in m_StateNotifiers)
+            {
+                notifier.OnTriggerOccurred -= HandleTrigger;
+            }
+        }
+
+        private void HandleDetailRequest(AdvancedPersonDataWithImage record)
+        {
+            m_PendingDetailsRecord = record;
+            m_WindowNavigationSystem.Fire(ApplicationTrigger.ShowPersonDetails);
+        }
+
+        private void UnsubscribeFromDetailNotifiers()
+        {
+            foreach (var notifier in m_DetailNotifiers)
+            {
+                notifier.OnDetailRequested -= HandleDetailRequest;
+            }
+        }
+
+        private void HandleServerDisconnect(string reason)
+        {
+            ClientLogger.LogInfo($"Server disconnected: {reason}");
+            m_DisconnectedViewModel.ErrorMessage = reason;
+            m_WindowNavigationSystem.Fire(ApplicationTrigger.UserDisconnected);
+        }
+
+        private void UnsubscribeFromNetworkEvents()
+        {
+            if (m_NetworkFacade is NetworkFacade facade)
+            {
+                facade.OnServerDisconnected -= HandleServerDisconnect;
+            }
         }
     }
 }
