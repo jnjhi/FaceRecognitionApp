@@ -23,8 +23,8 @@ namespace FaceRecognitionServer.Network
         private Dictionary<string, ClientData> m_Clients;
 
         private readonly Dictionary<string, DateTime> _lastActivity = new();
-        private readonly TimeSpan _inactivityThreshold = TimeSpan.FromMinutes(1);
-        private readonly TimeSpan _checkInterval = TimeSpan.FromMinutes(0.25);
+        private readonly TimeSpan _inactivityThreshold = TimeSpan.FromMinutes(0.5);
+        private readonly TimeSpan _checkInterval = TimeSpan.FromMinutes(0.05);
         private CancellationTokenSource _cts;
 
         // Initializes the network and subscribes to message receive event
@@ -162,6 +162,7 @@ namespace FaceRecognitionServer.Network
                     foreach (var ip in inactive)
                     {
                         NotifyAndDisconnect(ip);
+                        _cts.Cancel();//TODO: remove 
                     }
                 }
                 catch (TaskCanceledException)

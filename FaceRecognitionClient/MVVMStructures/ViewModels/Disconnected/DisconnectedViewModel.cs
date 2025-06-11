@@ -29,7 +29,12 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Disconnected
 
         public DisconnectedViewModel()
         {
-            LogInAgainCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.LogInRequested));
+            LogInAgainCommand = new RelayCommand(execute => LogInAgain());
+        }
+
+        private void LogInAgain()
+        {
+            OnTriggerOccurred?.Invoke(ApplicationTrigger.LogInRequested);
         }
     }
 }
