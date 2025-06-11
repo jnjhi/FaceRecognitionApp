@@ -15,6 +15,7 @@
         GalleryWindow,
         ForgotPasswordWindow,
         AttendanceWindow,
-        NavigationWindow
+        NavigationWindow,
+        DisconnectedWindow
     }
 }

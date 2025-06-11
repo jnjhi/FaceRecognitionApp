@@ -9,6 +9,13 @@ namespace FaceRecognitionClient
     public interface INetworkFacade
     {
         /// <summary>
+        /// Raised when the server notifies the client about a disconnection.
+        /// Carries the error message sent by the server.
+        /// </summary>
+        event Action<string> OnServerDisconnected;
+
+        void Connect();
+        /// <summary>
         /// Sends a request to the server and asynchronously waits for a typed response.
         /// </summary>
         /// <typeparam name="TRequest">The request data type (must inherit from Data)</typeparam>

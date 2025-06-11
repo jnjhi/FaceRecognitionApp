@@ -22,6 +22,11 @@
         GalleryRequested,
         ForgotPasswordRequested,
         PasswordResetSuccessful,
-        AttendanceRequested
+        AttendanceRequested,
+        UserDisconnected,
+        /// <summary>
+        /// User has requested to log out of the application.
+        /// </summary>
+        LogOutRequested
     }
 }

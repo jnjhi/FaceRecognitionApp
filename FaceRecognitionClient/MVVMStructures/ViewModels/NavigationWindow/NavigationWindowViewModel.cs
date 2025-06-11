@@ -14,6 +14,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.NavigationWindow
         public RelayCommand OpenFaceRecognitionCommand { get; }
         public RelayCommand OpenGalleryCommand { get; }
         public RelayCommand OpenAttendanceCommand { get; }
+        public RelayCommand LogOutCommand { get; }
 
         public NavigationWindowViewModel()
         {
@@ -23,6 +24,8 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.NavigationWindow
                 OnTriggerOccurred?.Invoke(ApplicationTrigger.GalleryRequested));
             OpenAttendanceCommand = new RelayCommand(_ =>
                 OnTriggerOccurred?.Invoke(ApplicationTrigger.AttendanceRequested));
+            LogOutCommand = new RelayCommand(_ =>
+                OnTriggerOccurred?.Invoke(ApplicationTrigger.LogOutRequested));
         }
     }
 }

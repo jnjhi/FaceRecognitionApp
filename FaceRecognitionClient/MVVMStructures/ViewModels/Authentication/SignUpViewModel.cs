@@ -11,8 +11,8 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Authentication
     {
         public event Action<ApplicationTrigger> OnTriggerOccurred;
 
-        public AsyncRelayCommand OnSignUp => new AsyncRelayCommand(execute => OnSignUpButtonClick());
-        public RelayCommand SwitchToSignUpWindow => new RelayCommand(execute => OnSwitchToLogInWindowButtonClick());
+        public AsyncRelayCommand OnSignUp;
+        public RelayCommand SwitchToSignUpWindow; 
 
         private SignUpModel m_SignUpModel;
 
@@ -117,6 +117,9 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Authentication
         public SignUpViewModel(INetworkFacade network, UserSession userSession)
         {
             m_SignUpModel = new SignUpModel(network, userSession);
+
+            OnSignUp = new AsyncRelayCommand(execute => OnSignUpButtonClick());
+            SwitchToSignUpWindow = new RelayCommand(execute => OnSwitchToLogInWindowButtonClick());
             InitializeTheCitiesComboBox();
         }
 
