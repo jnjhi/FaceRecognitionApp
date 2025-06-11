@@ -1,36 +1,114 @@
-<Window x:Class="FaceRecognitionClient.Views.NavigationWindow"
+﻿<Window x:Class="FaceRecognitionClient.Views.NavigationWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Navigation" Height="800" Width="1200"
-        ResizeMode="NoResize"
+        Title="Navigation"
+        Height="800" Width="1200"
         WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
         Background="White">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="0" Grid.ColumnSpan="3" Content="Logout"
-                Command="{Binding LogOutCommand}"
-                HorizontalAlignment="Right" Margin="10"
-                Width="100" Style="{StaticResource ModernButton}"/>
-        <Button Grid.Row="1" Grid.Column="0" Content="Face Recognition"
-                Command="{Binding OpenFaceRecognitionCommand}"
-                Width="200" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center"
-                Style="{StaticResource ModernButton}"/>
-        <Button Grid.Row="1" Grid.Column="1" Content="Gallery"
-                Command="{Binding OpenGalleryCommand}"
-                Width="200" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center"
-                Style="{StaticResource ModernButton}"/>
-        <Button Grid.Row="1" Grid.Column="2" Content="Attendance"
-                Command="{Binding OpenAttendanceCommand}"
-                Width="200" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center"
-                Style="{StaticResource ModernButton}"/>
+    <Window.Resources>
+        <SolidColorBrush x:Key="PurpleBrush" Color="#6A5ACD" />
+        <SolidColorBrush x:Key="WhiteBrush" Color="White" />
+    </Window.Resources>
+
+    <Grid Background="White">
+        <!-- Logout button (top-right corner) -->
+        <Button HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="0,20,20,0"
+                Width="140"
+                Height="40"
+                FontSize="16"
+                Background="{StaticResource PurpleBrush}"
+                Foreground="White"
+                BorderBrush="{StaticResource PurpleBrush}"
+                BorderThickness="0"
+                Cursor="Hand"
+                Command="{Binding LogOutCommand}">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="20"
+                            Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            🔓 Logout
+        </Button>
+
+        <!-- Centered 2x2 Grid with 3 Buttons (narrower column spacing) -->
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="520" Height="400">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Face Recognition Button -->
+            <Button Grid.Row="0" Grid.Column="0"
+                    Background="White"
+                    BorderThickness="0"
+                    Margin="5"
+                    Cursor="Hand"
+                    Command="{Binding OpenFaceRecognitionCommand}">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="20"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Source="pack://application:,,,/Resources/FaceRecognitionIcon.png" Stretch="Uniform"/>
+            </Button>
+
+            <!-- Attendance Button -->
+            <Button Grid.Row="0" Grid.Column="1"
+                    Background="White"
+                    BorderThickness="0"
+                    Margin="5"
+                    Cursor="Hand"
+                    Command="{Binding OpenAttendanceCommand}">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="20"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Source="pack://application:,,,/Resources/AttendenceIcon.png" Stretch="Uniform"/>
+            </Button>
+
+            <!-- Gallery Button -->
+            <Button Grid.Row="1" Grid.Column="0"
+                    Background="White"
+                    BorderThickness="0"
+                    Margin="5"
+                    Cursor="Hand"
+                    Command="{Binding OpenGalleryCommand}">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="20"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Source="pack://application:,,,/Resources/GalleryIcon.png" Stretch="Uniform"/>
+            </Button>
+
+            <!-- Grid.Row=1 Grid.Column=1 left intentionally empty -->
+        </Grid>
     </Grid>
 </Window>
