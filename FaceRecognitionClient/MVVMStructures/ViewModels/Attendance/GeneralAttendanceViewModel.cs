@@ -1,3 +1,7 @@
+using System.Linq;
+using Microsoft.Win32;
+using System.IO;
+using FaceRecognitionClient.Services.AttendanceExportService;
 ﻿using DataProtocols.GalleryMessages.Models;
 using DataProtocols.RetrievingPersonDataMessages;
 using FaceRecognitionClient.Commands;
@@ -24,6 +28,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
         public ICollectionView AttendanceView { get; }
         public AsyncRelayCommand RefreshCommand { get; }
         public AsyncRelayCommand OpenProfileCommand { get; }
+        public AsyncRelayCommand ExportCommand { get; }
 
         public bool SortDescending
         {
@@ -63,6 +68,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
 
             RefreshCommand = new AsyncRelayCommand(_ => LoadAsync());
             OpenProfileCommand = new AsyncRelayCommand(_ => OpenProfileAsync());
+            ExportCommand = new AsyncRelayCommand(_ => ExportAsync());
             BackCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.NavigationRequested));
         }
 
@@ -118,6 +124,36 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
             {
                 ClientLogger.ClientLogger.LogException(ex, $"Exception opening person profile window for ID {SelectedAttendanceRecord?.Id}.");
             }
+        }
+
+        private async Task ExportAsync()
+        {
+            var dialog = new OpenFileDialog
+            {
+                CheckFileExists = false,
+                CheckPathExists = true,
+                ValidateNames = false,
+                Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*",
+                FileName = "Select folder or file"
+            };
+
+            if (dialog.ShowDialog() != true)
+                return;
+
+            var path = dialog.FileName;
+            if (Directory.Exists(path))
+            {
+                var fileName = $"attendance_{DateTime.Now:yyyyMMdd_HHmmss}.txt";
+                path = Path.Combine(path, fileName);
+            }
+            else if (string.IsNullOrEmpty(Path.GetExtension(path)))
+            {
+                path += ".txt";
+            }
+
+            var exporter = new AttendanceExportService();
+            var records = AttendanceView.Cast<AttendanceRecord>().ToList();
+            await exporter.ExportAsync(records, path);
         }
 
         private void OnOpenPersonProfile(AdvancedPersonDataWithImage advancedPersonData) => OnDetailRequested?.Invoke(advancedPersonData);
