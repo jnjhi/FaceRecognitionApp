@@ -27,6 +27,11 @@ internal class ChatClient : IChatClient
 
     public void SendMessage(string message)
     {
+        if (!_IsConnected || !_client.Connected)
+        {
+            return;
+        }
+
         try
         {
             NetworkStream ns;
@@ -49,14 +54,13 @@ internal class ChatClient : IChatClient
     {
         int bytesRead;
 
-        if (!_IsConnected)
+        if (!_IsConnected || !_client.Connected)
         {
             return;
         }
 
         try
         {
-
             lock (_client.GetStream())
             {
                 bytesRead = _client.GetStream().EndRead(ar);
@@ -77,6 +81,14 @@ internal class ChatClient : IChatClient
                 _client.GetStream().BeginRead(_data, 0, Convert.ToInt32(_client.ReceiveBufferSize), ReceiveMessage, null);
             }
         }
+        catch (ObjectDisposedException)
+        {
+            // Connection was closed, ignore
+        }
+        catch (InvalidOperationException)
+        {
+            // Stream is no longer available
+        }
         catch (Exception ex)
         {
             Logger.LogException(ex, "Failed while receiving data");
@@ -85,10 +97,11 @@ internal class ChatClient : IChatClient
 
     public void Disconnect()
     {
+        _IsConnected = false;
         try
         {
+            CloseStream();
             _client.Close();
-            _IsConnected = false;
         }
         catch (Exception ex)
         {
@@ -97,6 +110,18 @@ internal class ChatClient : IChatClient
         finally
         {
             OnRemove?.Invoke(this, _clientIP);
+        }
+    }
+
+    private void CloseStream()
+    {
+        try
+        {
+            _client.GetStream().Close();
+        }
+        catch (Exception ex)
+        {
+            Logger.LogException(ex, "Failed to close network stream");
         }
     }
 }
