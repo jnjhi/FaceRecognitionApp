@@ -1,8 +1,5 @@
 using FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace FaceRecognitionClient.Services
 {
@@ -15,14 +12,26 @@ namespace FaceRecognitionClient.Services
 
             try
             {
-                var lines = new List<string>
-                {
-                    "FirstName,LastName,GovernmentID,AttendanceTime"
-                };
+                // Define column widths (add spacing buffer between columns)
+                int firstNameWidth = 16;     // 15 + 1 space
+                int lastNameWidth = 16;
+                int govIdWidth = 14;         // 12 + 2 spaces
+                int timeWidth = 20;
+
+                string header = string.Format("{0,-16}{1,-16}{2,-14}{3,-20}",
+                    "FirstName", "LastName", "GovernmentID", "AttendanceTime");
+
+                var lines = new List<string> { header };
 
                 foreach (var r in records)
                 {
-                    lines.Add($"{r.FirstName},{r.LastName},{r.GovernmentId},{r.AttendanceTime:dd/MM/yyyy HH:mm}");
+                    string row = string.Format("{0,-16}{1,-16}{2,-14}{3,-20}",
+                        r.FirstName,
+                        r.LastName,
+                        r.GovernmentId,
+                        r.AttendanceTime.ToString("dd/MM/yyyy HH:mm"));
+
+                    lines.Add(row);
                 }
 
                 File.WriteAllLines(filePath, lines);
@@ -32,5 +41,6 @@ namespace FaceRecognitionClient.Services
                 ClientLogger.ClientLogger.LogException(ex, "Failed to export attendance records.");
             }
         }
+
     }
 }
