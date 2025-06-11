@@ -4,6 +4,7 @@ using FaceRecognitionClient.Commands;
 using FaceRecognitionClient.InternalDataModels;
 using FaceRecognitionClient.MVVMStructures.Models.Attendance;
 using FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile;
+using FaceRecognitionClient.StateMachine;
 using System.CodeDom;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -11,7 +12,7 @@ using System.Windows.Data;
 
 namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
 {
-    public class GeneralAttendanceViewModel : BaseViewModel, IDetailNotifier<AdvancedPersonDataWithImage>
+    public class GeneralAttendanceViewModel : BaseViewModel, IDetailNotifier<AdvancedPersonDataWithImage>, IStateNotifier
     {
         private readonly INetworkFacade m_Network;
         private readonly Mapper m_Mapper;
@@ -37,6 +38,10 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
 
         public event Action<AdvancedPersonDataWithImage> OnDetailRequested;
 
+        public event Action<ApplicationTrigger> OnTriggerOccurred;
+
+        public RelayCommand BackCommand { get; }
+
         public AttendanceRecord SelectedAttendanceRecord
         {
             get => m_SelectedAttendanceRecord;
@@ -58,6 +63,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Attendance
 
             RefreshCommand = new AsyncRelayCommand(_ => LoadAsync());
             OpenProfileCommand = new AsyncRelayCommand(_ => OpenProfileAsync());
+            BackCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.NavigationRequested));
         }
 
         public async Task LoadAsync()

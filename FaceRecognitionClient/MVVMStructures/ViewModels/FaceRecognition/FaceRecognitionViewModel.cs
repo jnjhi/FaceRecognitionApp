@@ -23,11 +23,9 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.FaceRecognition
 
         public RelayCommand OpenCameraViewCommand { get; }
 
-        public RelayCommand OpenAttendanceCommand { get; }
-
         public AsyncRelayCommand SendImageCommand { get; }
 
-        public RelayCommand OpenGalleryCommand { get; }
+        public RelayCommand BackCommand { get; }
 
         public ObservableCollection<FaceRecordViewModel> RecognizedPersons { get; } = new();
 
@@ -51,8 +49,7 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.FaceRecognition
             UploadImageCommand = new AsyncRelayCommand(_ => OnUploadImage());
             OpenCameraViewCommand = new RelayCommand(_ => ChangeToCameraCaptureView());
             SendImageCommand = new AsyncRelayCommand(_ => OnSendImageForRecognitionAsync(), _ => ImageSource != null);
-            OpenGalleryCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.GalleryRequested));
-            OpenAttendanceCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.AttendanceRequested));
+            BackCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.NavigationRequested));
         }
 
         // Loads the photo that was taken by the camera into this view
