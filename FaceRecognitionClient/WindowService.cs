@@ -178,11 +178,7 @@ namespace LogInClient
                 }
             }
 
-            stateMachine.AddTransition(
-                ApplicationState.NavigationWindow,
-                ApplicationTrigger.LogOutRequested,
-                ApplicationState.LogInWindow,
-                InitializeViewsAndViewModels);
+            stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.LogOutRequested, ApplicationState.LogInWindow, InitializeViewsAndViewModels);
 
             stateMachine.AddTransition(ApplicationState.DisconnectedWindow, ApplicationTrigger.LogInRequested, ApplicationState.LogInWindow);
 
@@ -260,12 +256,17 @@ namespace LogInClient
 
         private void ReConnect()
         {
+            ReInitialize();
+            m_DisconnectedWindow.Show();
+        }
+
+        private void ReInitialize()
+        {
             UnsubscribeFromStateNotifiers();
             UnsubscribeFromDetailNotifiers();
             UnsubscribeFromNetworkEvents();
             InitializeKeyComponents();
             SubscribeToAllCriticalEvents();
-            m_DisconnectedWindow.Show();
         }
 
         private void InitializeKeyComponents()

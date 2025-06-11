@@ -97,3 +97,11 @@ Stack Trace:    at FaceRecognitionClient.StateMachine.StateMachine`2.Fire(TTrigg
 
 [INFO] 2025-06-11 22:31:39 - Server disconnected: Disconnected due to inactivity.
 
+[INFO] 2025-06-11 22:54:22 - Server disconnected: Disconnected due to inactivity.
+
+[WARNING] 2025-06-11 22:54:26 - No transition defined for trigger 'LogInRequested' from state 'LogInWindow'.
+
+[INFO] 2025-06-11 23:24:29 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 23:25:48 - Server disconnected: Disconnected due to inactivity.
+
