@@ -13,6 +13,8 @@ namespace FaceRecognitionClient
         /// Carries the error message sent by the server.
         /// </summary>
         event Action<string> OnServerDisconnected;
+
+        void Connect();
         /// <summary>
         /// Sends a request to the server and asynchronously waits for a typed response.
         /// </summary>

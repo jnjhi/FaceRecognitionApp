@@ -9,13 +9,13 @@ using FaceRecognitionClient.MVVMStructures.ViewModels.PersonProfile;
 using FaceRecognitionClient.MVVMStructures.ViewModels.Disconnected;
 using FaceRecognitionClient.MVVMStructures.Views.Attendance;
 using FaceRecognitionClient.MVVMStructures.Views.PersonProfile;
-using FaceRecognitionClient.MVVMStructures.Views.Disconnected;
 using FaceRecognitionClient.Services.GalleryService;
 using FaceRecognitionClient.StateMachine;
 using FaceRecognitionClient.Views.Authentication;
 using FaceRecognitionClient.Views;
 using System.Windows;
 using System;
+using FaceRecognitionClient.ClientLogger;
 
 namespace LogInClient
 {
@@ -78,28 +78,11 @@ namespace LogInClient
         private void InitializeViewsAndViewModels()
         {
             // Instantiate services and shared objects
-            m_NetworkFacade = new NetworkFacade();
-            m_SharedImageStore = new SharedImageStore();
-            m_StateNotifiers = new List<IStateNotifier>();
-            m_DetailNotifiers = new List<IDetailNotifier<AdvancedPersonDataWithImage>>();
-            m_UserSession = new UserSession();
-            m_Mapper = new Mapper();
-            m_GalleryService = new GalleryService(m_NetworkFacade, m_Mapper);
+            InitializeWindows();
 
-            // Create view models with their required dependencies
-            m_LogInViewModel = new LogInViewModel(m_NetworkFacade, m_UserSession);
-            m_SignUpViewModel = new SignUpViewModel(m_NetworkFacade, m_UserSession);
-            m_FaceRecognitionViewModel = new FaceRecognitionViewModel(m_NetworkFacade, m_GalleryService, m_SharedImageStore, m_Mapper);
-            m_CameraCaptureViewModel = new CameraCaptureViewModel(m_SharedImageStore);
-            m_CaptchaViewModel = new CaptchaViewModel();
-            m_EmailVerificationViewModel = new EmailVerificationViewModel(m_NetworkFacade, m_UserSession);
-            m_GalleryViewModel = new GalleryViewModel(m_GalleryService, m_PendingGalleryImage, m_UserSession);
-            m_ForgotPasswordViewModel = new ForgotPasswordViewModel(m_NetworkFacade);
-            m_GeneralAttendanceViewModel = new GeneralAttendanceViewModel(m_NetworkFacade, m_Mapper);
-            m_NavigationWindowViewModel = new NavigationWindowViewModel();
+            m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
             m_DisconnectedViewModel = new DisconnectedViewModel();
 
-            // Register all view models as state notifiers
             m_StateNotifiers.AddRange(new IStateNotifier[]
             {
                 m_LogInViewModel,
@@ -124,20 +107,6 @@ namespace LogInClient
             SubscribeToStateNotifiers();
             SubscribeToDetailNotifiers();
 
-            // Create views and bind them to their respective DataContexts
-            m_LogInWindow = new LogInWindow { DataContext = m_LogInViewModel };
-            m_SignUpWindow = new SignUpWindow { DataContext = m_SignUpViewModel };
-            m_FaceRecognitionWindow = new FaceRecoginitionWindow { DataContext = m_FaceRecognitionViewModel };
-            m_CameraCaptureWindow = new CameraCaptureWindow { DataContext = m_CameraCaptureViewModel };
-            m_CaptchaWindow = new CaptchaWindow { DataContext = m_CaptchaViewModel };
-            m_EmailVerificationWindow = new EmailVerificationWindow { DataContext = m_EmailVerificationViewModel };
-            m_GalleryWindow = new GalleryWindow { DataContext = m_GalleryViewModel };
-            m_ForgotPasswordWindow = new ForgotPasswordWindow { DataContext = m_ForgotPasswordViewModel };
-            m_GeneralAttendanceWindow = new GeneralAttendanceView { DataContext = m_GeneralAttendanceViewModel };
-            m_NavigationWindow = new NavigationWindow { DataContext = m_NavigationWindowViewModel };
-            m_DisconnectedWindow = new DisconnectedWindow { DataContext = m_DisconnectedViewModel };
-
-            // Build and configure the state machine
             m_WindowNavigationSystem = BuildStateMachine();
             SubscribeToNetworkEvents();
         }
@@ -171,7 +140,7 @@ namespace LogInClient
             {
                 facade.OnServerDisconnected += reason =>
                 {
-                    ClientLogger.ClientLogger.LogInfo($"Server disconnected: {reason}");
+                    ClientLogger.LogInfo($"Server disconnected: {reason}");
                     m_DisconnectedViewModel.ErrorMessage = reason;
                     m_WindowNavigationSystem.Fire(ApplicationTrigger.UserDisconnected);
                 };
@@ -236,7 +205,7 @@ namespace LogInClient
             stateMachine.AddStateEntryAction(ApplicationState.ForgotPasswordWindow, () => UpdateUI(() => m_ForgotPasswordWindow.Show()));
             stateMachine.AddStateEntryAction(ApplicationState.AttendanceWindow, () => UpdateUI(() => m_GeneralAttendanceWindow.Show()));
             stateMachine.AddStateEntryAction(ApplicationState.NavigationWindow, () => UpdateUI(() => m_NavigationWindow.Show()));
-            stateMachine.AddStateEntryAction(ApplicationState.DisconnectedWindow, () => UpdateUI(() => m_DisconnectedWindow.Show()));
+            stateMachine.AddStateEntryAction(ApplicationState.DisconnectedWindow, () => UpdateUI(() => ReConnect()));
 
             // Exit actions
             stateMachine.AddStateExitAction(ApplicationState.LogInWindow, () => UpdateUI(() => m_LogInWindow.Hide()));
@@ -291,6 +260,50 @@ namespace LogInClient
         {
             _ = m_GalleryViewModel.LoadImagesAsync();
             m_GalleryWindow.Show();
+        }
+
+        private void ReConnect()
+        {
+            InitializeWindows();
+            m_DisconnectedWindow.Show();
+        }
+
+        private void InitializeWindows()
+        {
+            m_NetworkFacade = new NetworkFacade();
+            m_NetworkFacade.Connect();
+
+            m_SharedImageStore = new SharedImageStore();
+            m_StateNotifiers = new List<IStateNotifier>();
+            m_DetailNotifiers = new List<IDetailNotifier<AdvancedPersonDataWithImage>>();
+            m_UserSession = new UserSession();
+            m_Mapper = new Mapper();
+            m_GalleryService = new GalleryService(m_NetworkFacade, m_Mapper);
+
+            // Create view models with their required dependencies
+            m_LogInViewModel = new LogInViewModel(m_NetworkFacade, m_UserSession);
+            m_SignUpViewModel = new SignUpViewModel(m_NetworkFacade, m_UserSession);
+            m_FaceRecognitionViewModel = new FaceRecognitionViewModel(m_NetworkFacade, m_GalleryService, m_SharedImageStore, m_Mapper);
+            m_CameraCaptureViewModel = new CameraCaptureViewModel(m_SharedImageStore);
+            m_CaptchaViewModel = new CaptchaViewModel();
+            m_EmailVerificationViewModel = new EmailVerificationViewModel(m_NetworkFacade, m_UserSession);
+            m_GalleryViewModel = new GalleryViewModel(m_GalleryService, m_PendingGalleryImage, m_UserSession);
+            m_ForgotPasswordViewModel = new ForgotPasswordViewModel(m_NetworkFacade);
+            m_GeneralAttendanceViewModel = new GeneralAttendanceViewModel(m_NetworkFacade, m_Mapper);
+            m_NavigationWindowViewModel = new NavigationWindowViewModel();
+
+            // Create views and bind them to their respective DataContexts
+            m_LogInWindow = new LogInWindow { DataContext = m_LogInViewModel };
+            m_SignUpWindow = new SignUpWindow { DataContext = m_SignUpViewModel };
+            m_FaceRecognitionWindow = new FaceRecoginitionWindow { DataContext = m_FaceRecognitionViewModel };
+            m_CameraCaptureWindow = new CameraCaptureWindow { DataContext = m_CameraCaptureViewModel };
+            m_CaptchaWindow = new CaptchaWindow { DataContext = m_CaptchaViewModel };
+            m_EmailVerificationWindow = new EmailVerificationWindow { DataContext = m_EmailVerificationViewModel };
+            m_GalleryWindow = new GalleryWindow { DataContext = m_GalleryViewModel };
+            m_ForgotPasswordWindow = new ForgotPasswordWindow { DataContext = m_ForgotPasswordViewModel };
+            m_GeneralAttendanceWindow = new GeneralAttendanceView { DataContext = m_GeneralAttendanceViewModel };
+            m_NavigationWindow = new NavigationWindow { DataContext = m_NavigationWindowViewModel };
+            
         }
     }
 }

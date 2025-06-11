@@ -33,3 +33,27 @@ Stack Trace:    at FaceRecognitionClient.StateMachine.StateMachine`2.Fire(TTrigg
    at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OnOpenPersonProfile(AdvancedPersonDataWithImage advancedPersonData) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 117
    at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OpenProfileAsync() in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 109
 
+[INFO] 2025-06-11 00:43:09 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 00:56:00 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 01:03:30 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 01:22:25 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 01:23:55 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 01:32:59 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 01:45:20 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 01:47:35 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 01:49:35 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 02:11:54 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 02:14:54 - Server disconnected: Disconnected due to inactivity.
+
+[INFO] 2025-06-11 02:18:54 - Server disconnected: Disconnected due to inactivity.
+

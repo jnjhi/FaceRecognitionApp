@@ -19,6 +19,11 @@ namespace FaceRecognitionClient
         /// </summary>
         public NetworkFacade()
         {
+            
+        }
+
+        public void Connect()
+        {
             m_SecureNetworkManager = new SecureNetworkManager();
             m_SecureNetworkManager.Connect(); // Establish encrypted communication with the server
             m_SecureNetworkManager.OnMessageReceive += HandleIncomingMessage;
