@@ -91,7 +91,8 @@ namespace LogInClient
                 m_GalleryViewModel,
                 m_ForgotPasswordViewModel,
                 m_NavigationWindowViewModel,
-                m_DisconnectedViewModel
+                m_DisconnectedViewModel,
+                m_GeneralAttendanceViewModel
             });
 
             m_DetailNotifiers.AddRange(new IDetailNotifier<AdvancedPersonDataWithImage>[]
@@ -151,11 +152,14 @@ namespace LogInClient
             stateMachine.AddTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.CameraCaptureRequested, ApplicationState.CameraCaptureWindow);
             stateMachine.AddTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.GalleryRequested, ApplicationState.GalleryWindow);
             stateMachine.AddTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.AttendanceRequested, ApplicationState.AttendanceWindow);
+            stateMachine.AddTransition(ApplicationState.FaceRecognitionWindow, ApplicationTrigger.NavigationRequested, ApplicationState.NavigationWindow);
             stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.FaceRecognitionRequested, ApplicationState.FaceRecognitionWindow);
             stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.GalleryRequested, ApplicationState.GalleryWindow);
             stateMachine.AddTransition(ApplicationState.NavigationWindow, ApplicationTrigger.AttendanceRequested, ApplicationState.AttendanceWindow);
             stateMachine.AddTransition(ApplicationState.GalleryWindow, ApplicationTrigger.FaceRecognitionRequested, ApplicationState.FaceRecognitionWindow);
+            stateMachine.AddTransition(ApplicationState.GalleryWindow, ApplicationTrigger.NavigationRequested, ApplicationState.NavigationWindow);
             stateMachine.AddTransition(ApplicationState.CameraCaptureWindow, ApplicationTrigger.FaceRecognitionRequested, ApplicationState.FaceRecognitionWindow);
+            stateMachine.AddTransition(ApplicationState.AttendanceWindow, ApplicationTrigger.NavigationRequested, ApplicationState.NavigationWindow);
             stateMachine.AddTransition(ApplicationState.LogInWindow, ApplicationTrigger.LogInFailed, ApplicationState.LogInWindow);
             stateMachine.AddTransition(ApplicationState.ForgotPasswordWindow, ApplicationTrigger.LogInRequested, ApplicationState.LogInWindow);
             stateMachine.AddTransition(ApplicationState.LogInWindow, ApplicationTrigger.ForgotPasswordRequested, ApplicationState.ForgotPasswordWindow);

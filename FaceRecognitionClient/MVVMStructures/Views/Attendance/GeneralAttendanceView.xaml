@@ -22,36 +22,45 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Controls: Refresh + Sort Toggle -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,10" Grid.Row="0" >
-            <Button Content="Refresh"
-                    Command="{Binding RefreshCommand}"
-                    Padding="16,6"
-                    Background="#6A5ACD"
-                    Foreground="White"
-                    FontWeight="Bold"
-                    BorderThickness="0"
-                    Cursor="Hand"
-                    Margin="0,0,10,0"
-                    Width="100"
-                    Height="32"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Right"
-                    />
-        
-            <ToggleButton Content="{Binding SortDescending, Converter={StaticResource BoolToSortLabelConverter}}"
-                          IsChecked="{Binding SortDescending}"
-                          Padding="12,4"
-                          Background="#6A5ACD"
-                          Foreground="White"
-                          FontWeight="Bold"
-                          BorderThickness="0"
-                          Cursor="Hand"
-                          Width="120"
-                          Height="32"
-                          VerticalAlignment="Center"
-                          /> 
-        </StackPanel>
+        <!-- Controls: Back, Refresh and Sort Toggle -->
+        <Grid Grid.Row="0" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Back"
+                    Command="{Binding BackCommand}"
+                    Style="{StaticResource ModernButton}"
+                    Width="80" Margin="0,0,10,0"/>
+
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Refresh"
+                        Command="{Binding RefreshCommand}"
+                        Padding="16,6"
+                        Background="#6A5ACD"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,10,0"
+                        Width="100"
+                        Height="32"
+                        VerticalAlignment="Center"/>
+
+                <ToggleButton Content="{Binding SortDescending, Converter={StaticResource BoolToSortLabelConverter}}"
+                              IsChecked="{Binding SortDescending}"
+                              Padding="12,4"
+                              Background="#6A5ACD"
+                              Foreground="White"
+                              FontWeight="Bold"
+                              BorderThickness="0"
+                              Cursor="Hand"
+                              Width="120"
+                              Height="32"
+                              VerticalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
 
         <!-- Rounded DataGrid -->
         <Border Grid.Row="1"

@@ -29,8 +29,8 @@ namespace FaceRecognitionClient.MVVMStructures.ViewModels.Gallery
             // Command to reload gallery images
             RefreshCommand = new AsyncRelayCommand(_ => LoadImagesAsync());
 
-            // Navigate back to face recognition screen
-            BackCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.FaceRecognitionRequested));
+            // Navigate back to the main navigation window
+            BackCommand = new RelayCommand(_ => OnTriggerOccurred?.Invoke(ApplicationTrigger.NavigationRequested));
 
         }
 

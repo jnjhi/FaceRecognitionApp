@@ -23,6 +23,10 @@
         ForgotPasswordRequested,
         PasswordResetSuccessful,
         AttendanceRequested,
+        /// <summary>
+        /// Request to return to the main navigation window.
+        /// </summary>
+        NavigationRequested,
         UserDisconnected,
         /// <summary>
         /// User has requested to log out of the application.
