@@ -63,7 +63,7 @@ namespace FaceRecognitionClient
                     r.FirstName,
                     r.LastName,
                     r.HeightCm,
-                    r.Sex,
+                    r.Gender,
                     r.FaceEmbedding,
                     r.Notes,
                     r.Rectangle)));
@@ -75,7 +75,7 @@ namespace FaceRecognitionClient
                     r.FirstName,
                     r.LastName,
                     r.HeightCm,
-                    r.Sex,
+                    r.Gender,
                     r.FaceEmbedding,
                     r.Notes,
                     r.Rectangle,
@@ -89,7 +89,7 @@ namespace FaceRecognitionClient
                     FirstNameError = dto.FirstNameError,
                     LastNameError = dto.LastNameError,
                     GovernmentIDError = dto.GovernmentIDError,
-                    SexError = dto.SexError
+                    GenderError = dto.GenderError
                 });
 
             // Reverse mapping for sending back validation results to the server
@@ -99,7 +99,7 @@ namespace FaceRecognitionClient
                     FirstNameError = model.FirstNameError,
                     LastNameError = model.LastNameError,
                     GovernmentIDError = model.GovernmentIDError,
-                    SexError = model.SexError
+                    GenderError = model.GenderError
                 });
 
             // Mapping from FaceRecordDTO to AdvancedPersonData
@@ -110,7 +110,7 @@ namespace FaceRecognitionClient
                     dto.FirstName,
                     dto.LastName,
                     dto.HeightCm,
-                    dto.Sex,
+                    dto.Gender,
                     dto.FaceEmbedding,
                     dto.Notes,
                     Rectangle.Empty // DTO doesn't contain rectangle info
@@ -136,7 +136,7 @@ namespace FaceRecognitionClient
                     dto.FirstName,
                     dto.LastName,
                     dto.HeightCm,
-                    dto.Sex,
+                    dto.Gender,
                     dto.FaceEmbedding,
                     dto.Notes,
                     System.Drawing.Rectangle.Empty, // or a real rectangle if you have it

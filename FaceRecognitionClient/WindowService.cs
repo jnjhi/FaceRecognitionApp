@@ -295,7 +295,7 @@ namespace LogInClient
 
             // Create views and bind them to their respective DataContexts
             m_LogInWindow = new LogInWindow { DataContext = m_LogInViewModel };
-            m_SignUpWindow = new SignUpWindow { DataContext = m_SignUpViewModel };
+           m_SignUpWindow = new SignUpWindow { DataContext = m_SignUpViewModel };
             m_FaceRecognitionWindow = new FaceRecoginitionWindow { DataContext = m_FaceRecognitionViewModel };
             m_CameraCaptureWindow = new CameraCaptureWindow { DataContext = m_CameraCaptureViewModel };
             m_CaptchaWindow = new CaptchaWindow { DataContext = m_CaptchaViewModel };

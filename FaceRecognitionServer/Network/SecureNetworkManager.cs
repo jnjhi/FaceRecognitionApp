@@ -10,6 +10,9 @@ namespace FaceRecognitionServer.Network
     // Handles secure key exchange, message encryption/decryption, and client session management.
     public class SecureNetworkManager : ISecureNetworkManager
     {
+        private const double k_MaximumIdleTime = 10.0;
+        private const double k_CheckIntervalTime = 1.0;
+
         // Triggered when a decrypted message is received from a client
         public event Action<string, string> OnMessageReceive;
 
@@ -23,8 +26,8 @@ namespace FaceRecognitionServer.Network
         private Dictionary<string, ClientData> m_Clients;
 
         private readonly Dictionary<string, DateTime> _lastActivity = new();
-        private readonly TimeSpan _inactivityThreshold = TimeSpan.FromMinutes(0.5);
-        private readonly TimeSpan _checkInterval = TimeSpan.FromMinutes(0.05);
+        private readonly TimeSpan _inactivityThreshold = TimeSpan.FromMinutes(k_MaximumIdleTime);
+        private readonly TimeSpan _checkInterval = TimeSpan.FromMinutes(k_CheckIntervalTime);
         private CancellationTokenSource _cts;
 
         // Initializes the network and subscribes to message receive event
@@ -162,7 +165,6 @@ namespace FaceRecognitionServer.Network
                     foreach (var ip in inactive)
                     {
                         NotifyAndDisconnect(ip);
-                        _cts.Cancel();//TODO: remove 
                     }
                 }
                 catch (TaskCanceledException)

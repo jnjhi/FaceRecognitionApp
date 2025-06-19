@@ -9,7 +9,7 @@ namespace DataProtocols.Authentication.ForgotPasswordMessages
         public bool IsSuccessful { get; set; }
 
         [JsonProperty]
-        public string Message { get; set; }
+        public string Message  { get; set; }
 
         public ResetPasswordResponseDTO()
         {

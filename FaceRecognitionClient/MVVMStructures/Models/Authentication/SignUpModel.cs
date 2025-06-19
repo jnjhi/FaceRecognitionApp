@@ -23,8 +23,7 @@ namespace FaceRecognitionClient.MVVMStructures.Models.Authentication
         /// </summary>
         public async Task<SignUpAnswerDTO> SignUp(string username, string password, string firstName, string lastName, string email, string city)
         {
-            var response = await m_NetworkFacade.SendRequestAsync<SignUpDataDTO, SignUpAnswerDTO>(
-                new SignUpDataDTO(username, password, firstName, lastName, email, city));
+            var response = await m_NetworkFacade.SendRequestAsync<SignUpDataDTO, SignUpAnswerDTO>(new SignUpDataDTO(username, password, firstName, lastName, email, city));
 
             if (response.IsSignUpSuccessful)
             {

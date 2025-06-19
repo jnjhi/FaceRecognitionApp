@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using DataProtocols.FaceRecognitionMessages.Models;
+using Newtonsoft.Json;
 
 namespace DataProtocols.FaceRecognitionMessages
 {

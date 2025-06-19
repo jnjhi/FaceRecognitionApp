@@ -72,7 +72,7 @@ namespace FaceRecognitionServer.Services.FaceRecognitionService
                 LastName = record.LastName,
                 GovernmentID = record.GovernmentID,
                 HeightCm = record.HeightCm,
-                Sex = record.Sex,
+                Gender = record.Sex,
                 Notes = record.Notes,
                 Rectangle = face.Rectangle,
                 FaceEmbedding = face.Embedding
@@ -90,7 +90,7 @@ namespace FaceRecognitionServer.Services.FaceRecognitionService
                 LastName = null,
                 GovernmentID = unknownUser.GovernmentID,
                 HeightCm = null,
-                Sex = null,
+                Gender = null,
                 Notes = null,
                 Rectangle = face.Rectangle,
                 FaceEmbedding = unknownUser.FaceEmbedding

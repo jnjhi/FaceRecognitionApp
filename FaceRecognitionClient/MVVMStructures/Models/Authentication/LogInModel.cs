@@ -28,8 +28,7 @@ namespace FaceRecognitionClient.MVVMStructures.Models.Authentication
                 return new LogInAnswerDTO(false, validation);
             }
 
-            var response = await m_NetworkFacade.SendRequestAsync<LogInDataDTO, LogInAnswerDTO>(
-                new LogInDataDTO(userName, password));
+            var response = await m_NetworkFacade.SendRequestAsync<LogInDataDTO, LogInAnswerDTO>(new LogInDataDTO(userName, password));
 
             if (!response.IsAccessGranted)
             {

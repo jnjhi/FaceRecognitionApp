@@ -5,7 +5,7 @@
         public string FirstNameError { get; set; } = string.Empty;
         public string LastNameError { get; set; } = string.Empty;
         public string GovernmentIDError { get; set; } = string.Empty;
-        public string SexError { get; set; } = string.Empty;
+        public string GenderError { get; set; } = string.Empty;
 
         public string HeightError { get; set; } = string.Empty;
 
@@ -16,7 +16,7 @@
             string.IsNullOrEmpty(FirstNameError) &&
             string.IsNullOrEmpty(LastNameError) &&
             string.IsNullOrEmpty(GovernmentIDError) &&
-            string.IsNullOrEmpty(SexError) && 
+            string.IsNullOrEmpty(GenderError) && 
             string.IsNullOrEmpty(HeightError);
     }
 }

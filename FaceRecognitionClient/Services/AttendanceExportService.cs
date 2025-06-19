@@ -18,8 +18,7 @@ namespace FaceRecognitionClient.Services
                 int govIdWidth = 14;         // 12 + 2 spaces
                 int timeWidth = 20;
 
-                string header = string.Format("{0,-16}{1,-16}{2,-14}{3,-20}",
-                    "FirstName", "LastName", "GovernmentID", "AttendanceTime");
+                string header = string.Format("{0,-16}{1,-16}{2,-14}{3,-20}", "FirstName", "LastName", "GovernmentID", "AttendanceTime");
 
                 var lines = new List<string> { header };
 

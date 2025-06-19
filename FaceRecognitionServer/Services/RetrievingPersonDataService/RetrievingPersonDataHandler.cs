@@ -45,7 +45,7 @@ namespace FaceRecognitionServer.Services.RetrievingPersonDataService
                    FirstName = person.FirstName,
                    LastName = person.LastName,
                    HeightCm = person.HeightCm,
-                   Sex = person.Sex,
+                   Gender = person.Sex,
                    FaceEmbedding = person.FaceEmbedding,
                    Notes = person.Notes,
                    CaptureTime = person.CaptureDate,

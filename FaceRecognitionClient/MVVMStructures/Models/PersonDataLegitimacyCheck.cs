@@ -32,7 +32,7 @@ namespace FaceRecognitionClient.MVVMStructures.Models
 
             var s = (sex ?? "").Trim();
             if (!(s == "Male" || s == "Female" || s == "Other"))
-                result.SexError = "Sex must be 'Male', 'Female' or 'Other'.";
+                result.GenderError = "Sex must be 'Male', 'Female' or 'Other'.";
 
             return result;
         }

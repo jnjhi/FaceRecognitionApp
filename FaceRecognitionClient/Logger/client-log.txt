@@ -1,107 +1,158 @@
-[START] Log initialized at 2025-06-01 22:18:31
-[ERROR] 2025-06-01 22:18:31
+[ERROR] 2025-06-20 00:59:42
+Context: Failed to decrypt the message
+Exception: CryptographicException - Padding is invalid and cannot be removed.
+Stack Trace:    at System.Security.Cryptography.SymmetricPadding.GetPaddingLength(ReadOnlySpan`1 block, PaddingMode paddingMode, Int32 blockSize)
+   at System.Security.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at System.Security.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Encryption.AESEncryption.Decrypt(String ciphertext) in C:\Users\denis\source\repos\Encryption\Encryption\AESEncryption.cs:line 65
+   at FaceRecognitionClient.Network.SecureNetworkManager.OnMessageReceiveFromServer(String message) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\Network\SecureNetworkManager.cs:line 85
+
+[ERROR] 2025-06-20 00:59:42
+Context: Failed processing passive message
+Exception: JsonReaderException - Unexpected character encountered while parsing value: �. Path '', line 0, position 0.
+Stack Trace:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DataProtocols.ConvertUtils.GetDataType(String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 48
+   at FaceRecognitionClient.NetworkFacade.HandleIncomingMessage(String message) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 36
+
+[ERROR] 2025-06-20 00:59:42
 Context: Was unable to deserialize the message
-Exception: Exception - Unknown or unregistered data type: GetGalleryResponse
-Stack Trace:    at DataProtocols.ConvertUtils.Deserialize[T](String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 47
-   at FaceRecognitionClient.NetworkFacade.<>c__DisplayClass2_0`2.<SendRequestAsync>b__0(String incomingMessage) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 48
+Exception: JsonReaderException - Unexpected character encountered while parsing value: �. Path '', line 0, position 0.
+Stack Trace:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DataProtocols.ConvertUtils.GetDataType(String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 48
+   at DataProtocols.ConvertUtils.Deserialize[T](String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 52
+   at FaceRecognitionClient.NetworkFacade.<>c__DisplayClass7_0`2.<SendRequestAsync>b__0(String incomingMessage) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 73
 
-[ERROR] 2025-06-03 00:37:17
-Context: Error saving bitmap
-Exception: ExternalException - A generic error occurred in GDI+.
-Stack Trace:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
-   at FaceRecognitionClient.ClientLogger.ClientLogger.SaveBitmapToPath(Bitmap bitmap, String filePath, ImageFormat format) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\Logger\ClientLogger.cs:line 90
+[ERROR] 2025-06-20 01:02:19
+Context: Failed to decrypt the message
+Exception: CryptographicException - Padding is invalid and cannot be removed.
+Stack Trace:    at System.Security.Cryptography.SymmetricPadding.GetPaddingLength(ReadOnlySpan`1 block, PaddingMode paddingMode, Int32 blockSize)
+   at System.Security.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at System.Security.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Encryption.AESEncryption.Decrypt(String ciphertext) in C:\Users\denis\source\repos\Encryption\Encryption\AESEncryption.cs:line 65
+   at FaceRecognitionClient.Network.SecureNetworkManager.OnMessageReceiveFromServer(String message) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\Network\SecureNetworkManager.cs:line 85
 
-[ERROR] 2025-06-03 00:37:17
-Context: Error saving bitmap
-Exception: ExternalException - A generic error occurred in GDI+.
-Stack Trace:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
-   at FaceRecognitionClient.ClientLogger.ClientLogger.SaveBitmapToPath(Bitmap bitmap, String filePath, ImageFormat format) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\Logger\ClientLogger.cs:line 90
+[ERROR] 2025-06-20 01:02:19
+Context: Failed processing passive message
+Exception: JsonReaderException - Unexpected character encountered while parsing value: V. Path '', line 0, position 0.
+Stack Trace:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DataProtocols.ConvertUtils.GetDataType(String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 48
+   at FaceRecognitionClient.NetworkFacade.HandleIncomingMessage(String message) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 36
 
-[ERROR] 2025-06-07 22:13:11
-Context: Exception opening person profile window for ID 41.
-Exception: InvalidOperationException - No transition defined for trigger 'ShowPersonDetails' from state 'AttendanceWindow'.
-Stack Trace:    at FaceRecognitionClient.StateMachine.StateMachine`2.Fire(TTrigger trigger) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\StateMachine\StateMachine.cs:line 101
-   at LogInClient.WindowService.<SubscribeToDetailNotifiers>b__31_0(AdvancedPersonDataWithImage record) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\WindowService.cs:line 148
-   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OnOpenPersonProfile(AdvancedPersonDataWithImage advancedPersonData) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 117
-   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OpenProfileAsync() in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 109
+[ERROR] 2025-06-20 01:02:19
+Context: Was unable to deserialize the message
+Exception: JsonReaderException - Unexpected character encountered while parsing value: V. Path '', line 0, position 0.
+Stack Trace:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DataProtocols.ConvertUtils.GetDataType(String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 48
+   at DataProtocols.ConvertUtils.Deserialize[T](String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 52
+   at FaceRecognitionClient.NetworkFacade.<>c__DisplayClass7_0`2.<SendRequestAsync>b__0(String incomingMessage) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 73
 
-[ERROR] 2025-06-07 22:13:18
-Context: Exception opening person profile window for ID 41.
-Exception: InvalidOperationException - No transition defined for trigger 'ShowPersonDetails' from state 'AttendanceWindow'.
-Stack Trace:    at FaceRecognitionClient.StateMachine.StateMachine`2.Fire(TTrigger trigger) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\StateMachine\StateMachine.cs:line 101
-   at LogInClient.WindowService.<SubscribeToDetailNotifiers>b__31_0(AdvancedPersonDataWithImage record) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\WindowService.cs:line 148
-   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OnOpenPersonProfile(AdvancedPersonDataWithImage advancedPersonData) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 117
-   at FaceRecognitionClient.MVVMStructures.ViewModels.Attendance.GeneralAttendanceViewModel.OpenProfileAsync() in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\MVVMStructures\ViewModels\Attendance\GeneralAttendanceViewModel.cs:line 109
+[ERROR] 2025-06-20 01:02:26
+Context: Failed to decrypt the message
+Exception: CryptographicException - Padding is invalid and cannot be removed.
+Stack Trace:    at System.Security.Cryptography.SymmetricPadding.GetPaddingLength(ReadOnlySpan`1 block, PaddingMode paddingMode, Int32 blockSize)
+   at System.Security.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at System.Security.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Encryption.AESEncryption.Decrypt(String ciphertext) in C:\Users\denis\source\repos\Encryption\Encryption\AESEncryption.cs:line 65
+   at FaceRecognitionClient.Network.SecureNetworkManager.OnMessageReceiveFromServer(String message) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\Network\SecureNetworkManager.cs:line 85
 
-[INFO] 2025-06-11 00:43:09 - Server disconnected: Disconnected due to inactivity.
+[ERROR] 2025-06-20 01:02:26
+Context: Failed processing passive message
+Exception: JsonReaderException - Unexpected character encountered while parsing value: V. Path '', line 0, position 0.
+Stack Trace:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DataProtocols.ConvertUtils.GetDataType(String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 48
+   at FaceRecognitionClient.NetworkFacade.HandleIncomingMessage(String message) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 36
 
-[INFO] 2025-06-11 00:56:00 - Server disconnected: Disconnected due to inactivity.
+[ERROR] 2025-06-20 01:02:26
+Context: Was unable to deserialize the message
+Exception: JsonReaderException - Unexpected character encountered while parsing value: V. Path '', line 0, position 0.
+Stack Trace:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DataProtocols.ConvertUtils.GetDataType(String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 48
+   at DataProtocols.ConvertUtils.Deserialize[T](String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 52
+   at FaceRecognitionClient.NetworkFacade.<>c__DisplayClass7_0`2.<SendRequestAsync>b__0(String incomingMessage) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 73
 
-[INFO] 2025-06-11 01:03:30 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 01:22:25 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 01:23:55 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 01:32:59 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 01:45:20 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 01:47:35 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 01:49:35 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 02:11:54 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 02:14:54 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 02:18:54 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 20:48:12 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 20:55:04 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 21:02:12 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 21:17:45 - Server disconnected: Disconnected due to inactivity.
-
-[WARNING] 2025-06-11 21:18:37 - No transition defined for trigger 'LogInRequested' from state 'LogInWindow'.
-
-[INFO] 2025-06-11 21:23:28 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 21:27:34 - Server disconnected: Disconnected due to inactivity.
-
-[WARNING] 2025-06-11 21:27:43 - No transition defined for trigger 'LogInRequested' from state 'LogInWindow'.
-
-[INFO] 2025-06-11 21:32:45 - Server disconnected: Disconnected due to inactivity.
-
-[WARNING] 2025-06-11 21:33:03 - No transition defined for trigger 'LogInRequested' from state 'LogInWindow'.
-
-[INFO] 2025-06-11 21:39:18 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 21:43:07 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 21:46:40 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 21:50:55 - Server disconnected: Disconnected due to inactivity.
-
-[WARNING] 2025-06-11 21:51:39 - No transition defined for trigger 'LogInRequested' from state 'LogInWindow'.
-
-[INFO] 2025-06-11 21:55:01 - Server disconnected: Disconnected due to inactivity.
-
-[WARNING] 2025-06-11 21:56:26 - No transition defined for trigger 'LogInRequested' from state 'LogInWindow'.
-
-[INFO] 2025-06-11 21:57:22 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 22:11:27 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 22:31:39 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 22:54:22 - Server disconnected: Disconnected due to inactivity.
-
-[WARNING] 2025-06-11 22:54:26 - No transition defined for trigger 'LogInRequested' from state 'LogInWindow'.
-
-[INFO] 2025-06-11 23:24:29 - Server disconnected: Disconnected due to inactivity.
-
-[INFO] 2025-06-11 23:25:48 - Server disconnected: Disconnected due to inactivity.
+[ERROR] 2025-06-20 01:02:26
+Context: Was unable to deserialize the message
+Exception: JsonReaderException - Unexpected character encountered while parsing value: V. Path '', line 0, position 0.
+Stack Trace:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DataProtocols.ConvertUtils.GetDataType(String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 48
+   at DataProtocols.ConvertUtils.Deserialize[T](String input) in C:\Users\denis\source\repos\FaceRecognition\DataProtocols\DataProtocols\ConvertUtils.cs:line 52
+   at FaceRecognitionClient.NetworkFacade.<>c__DisplayClass7_0`2.<SendRequestAsync>b__0(String incomingMessage) in C:\Users\denis\source\repos\FaceRecognition\FaceRecognitionClient\NetworkFacade.cs:line 73
 

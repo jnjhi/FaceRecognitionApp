@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Drawing;
 
-namespace DataProtocols
+namespace DataProtocols.FaceRecognitionMessages.Models
 {
     [Serializable]
     public class FullPersonDataWithProfilePictureDTO
@@ -31,7 +31,7 @@ namespace DataProtocols
         public int? HeightCm { get; set; }
 
         [JsonProperty]
-        public string Sex { get; set; }
+        public string Gender { get; set; }
 
         [JsonProperty]
         public float[] FaceEmbedding { get; set; }

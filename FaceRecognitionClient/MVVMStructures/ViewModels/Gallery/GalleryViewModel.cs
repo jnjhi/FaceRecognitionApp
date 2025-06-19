@@ -8,7 +8,6 @@ using System.Windows.Input;
 
 namespace FaceRecognitionClient.MVVMStructures.ViewModels.Gallery
 {
-    //TODO : strange architecture with the GalleryImageViewModel. why not move the IDetailNotifier into the GalleryImageViewModel
     public class GalleryViewModel : BaseViewModel, IStateNotifier, IDetailNotifier<AdvancedPersonDataWithImage>
     {
         private GalleryModel m_GalleryModel;

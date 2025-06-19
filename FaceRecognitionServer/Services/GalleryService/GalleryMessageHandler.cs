@@ -36,7 +36,7 @@ namespace FaceRecognitionServer
                     FirstName = image.FirstName,
                     LastName = image.LastName,
                     HeightCm = image.HeightCm,
-                    Sex = image.Sex,
+                    Gender = image.Sex,
                     FaceEmbedding = image.FaceEmbedding,
                     Notes = image.Notes,
                     CaptureTime = image.CaptureDate,

@@ -20,7 +20,7 @@ namespace DataProtocols.GalleryMessages.Models
         public int? HeightCm { get; set; }
 
         [JsonProperty]
-        public string Sex { get; set; }
+        public string Gender { get; set; }
 
         [JsonProperty]
         public float[] FaceEmbedding { get; set; }
@@ -40,7 +40,7 @@ namespace DataProtocols.GalleryMessages.Models
             FirstName = firstName;
             LastName = lastName;
             HeightCm = heightCm;
-            Sex = sex;
+            Gender = sex;
             FaceEmbedding = faceEmbedding;
             Notes = notes;
         }
